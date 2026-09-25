@@ -101,7 +101,7 @@ the unitriangular group $op("UT")(n,K)$.*])[
     Here $B(r,n)=N(n,r+1)$ in the usual Narayana notation; see #cite(
       <Stanley2015>,
       supplement: [Problem A46(a), pp. 124–125],
-    ). For $Phi(m, m)$, see also #cite(
+    ). For $Phi$, see also #cite(
       <Krattenthaler2015>,
       supplement: [Corollary 10.3.2],
     ).
