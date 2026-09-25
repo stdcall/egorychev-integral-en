@@ -86,9 +86,9 @@ new marks and inserted pages automatically change the generated output.
 
 Lean proofs are in `validation/lean`; their scope is described in the file
 comments. They establish specific steps, not the correctness of the entire
-book. `validation/proofs.json` records the associated passages and hashes.
-When changing a bound passage or proof, review their correspondence before
-updating its hash.
+book. `validation/proofs.json` lists, for each Lean file, its declarations and
+the labels of the passages it checks; the build verifies that these labels
+exist. When changing such a passage or proof, review their correspondence.
 
 With elan installed, run:
 
