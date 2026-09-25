@@ -64,12 +64,8 @@ the unitriangular group $op("UT")(n,K)$.*])[
 
   The number of these paths is (#bib-ref("Feller1968"), Chapter III, §9,
   (9.1))#editorial-note("diagonal-paths")[
-    Feller counts paths of $2m$ steps $plus.minus 1$ from the origin to $(2m,0)$
-    that never go below the axis; a right step corresponds to $+1$ and an upward
-    step to $-1$. For the formula in the present form, see #cite(
-      <Krattenthaler2015>,
-      supplement: [Corollary 10.3.2, (10.11), pp. 595–596],
-    ).
+    See also #cite(<Krattenthaler2015>, supplement: [Corollary 10.3.2,
+      (10.11)]).
   ]
   $
     Phi(i-r, i-r)=frac(1, i-r+1)binom(2i-2r, i-r).
