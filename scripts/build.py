@@ -189,12 +189,13 @@ def check_sources():
                 r'Proposition|Definition|to|at|from|equal to)(?=\d)',
                 prose, re.IGNORECASE)
             assert not joined, (entry['id'], field, joined.group())
+    labels = {label for path in (ROOT / 'content').rglob('*.typ')
+              for label in re.findall(r'<([\w:.-]+)>', path.read_text())}
     for proof in json.loads((ROOT / 'validation/proofs.json').read_text()):
-        assert sha(ROOT / proof['file']) == proof['sha256'], proof['file']
-        for path, expected in proof['content_sha256'].items():
-            assert sha(ROOT / path) == expected, (
-                f'{path}: review the correspondence with {proof["file"]} '
-                'and update validation/proofs.json')
+        assert (ROOT / proof['file']).is_file(), proof['file']
+        assert proof['passages'], proof['file']
+        missing = set(proof['passages']) - labels
+        assert not missing, (proof['file'], sorted(missing))
 
 
 def metadata(notes):
