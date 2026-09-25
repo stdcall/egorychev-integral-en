@@ -84,7 +84,7 @@ the factor $1/sqrt(2pi B)$.
 ]
 
 #example(suffix: [])[
-  (see, for example, #bib-ref("Feller1957"), Chapter VII, §5, (5.2)). Let #eq(
+  (see, for example, #bib-ref("Feller1968"), Chapter VII, §6, (6.7)). Let #eq(
     $ S=sum_(i=0)^k binom(n, i)p^(i)(1-p)^(n-i), quad 0<p<1. $,
   ) <eq:binomial-tail>
   Here $p$ is fixed and $k$ is an integer. We show that, if

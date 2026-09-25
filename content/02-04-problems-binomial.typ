@@ -70,7 +70,7 @@ may then be taken.
   $
 
   *Answers.* a) $n 2^(n-1)$, $binom(k+n, n)$,
-  $binom(alpha+1, q+1)-binom(alpha-p, q+1)$ (#bib-ref("Feller1957"), Chapter 2,
+  $binom(alpha+1, q+1)-binom(alpha-p, q+1)$ (#bib-ref("Feller1968"), Chapter 2,
   formulas (12.1), (12.8), and (12.6)). b) $(-1)^n binom(n, m-n)$, $0$ (cf.
   #bib-ref("Kaucky1966")). c) $s binom(r+s-1, r-1)$, with value $0$ when $r=0$
   (cf. #bib-ref("Knuth1969"), §1.2.6, Problem 1). d) $0$ (cf. Klee's identity

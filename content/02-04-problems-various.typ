@@ -96,8 +96,8 @@
   $
   #source(96, "84")
   #keep-next[
-    k) Feller's formula (#bib-ref("Feller1957"), Chapter 3, §6, formula (6.4),
-    and the remark in Chapter 11, §3a), for $p,q>0$ and integers $n>=x>=1$,
+    k) Feller's formula (#bib-ref("Feller1968"), Chapter 3, §7, formula (7.4),
+    and the remark in Chapter 11, §3d), for $p,q>0$ and integers $n>=x>=1$,
   ]
   $
     res_s lr((frac(1-sqrt(1-4p q s^2), 2q s)))^x s^(-n-1) \

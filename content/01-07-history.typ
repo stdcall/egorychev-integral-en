@@ -57,7 +57,7 @@ generating-function method in combinatorial analysis, comments: #text(
   The last sentence is a footnote in Berge's original.
 ] And Feller: “In the theory of probability generating functions have been used
 since DeMoivre and Laplace, but the power and the possibilities of the method
-are rarely fully utilized” (#bib-ref("Feller1957"), p. 212).
+are rarely fully utilized” (#bib-ref("Feller1968"), p. 264).
 
 #source(50, "38")
 Indeed, although combinatorialists from MacMahon #bib-ref("MacMahon1915")
@@ -99,7 +99,7 @@ clarified the origins of the generating-function idea and revealed deep
 relationships among the general algebraic structures describing basic
 combinatorial objects.
 
-The following statement by Feller is also apt (#bib-ref("Feller1957"), p. 212):
+The following statement by Feller is also apt (#bib-ref("Feller1968"), p. 264):
 “… the powerful method of generating functions \[is\] a special case of the
 method of characteristic functions on which the theory of probability depends to
 a large extent. More generally, the subject of generating functions belongs to
