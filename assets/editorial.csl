@@ -4,7 +4,6 @@
   <info>
     <title>Egorychev editorial author, short title and year</title>
     <id>urn:egorychev:editorial-author-title</id>
-    <updated>2026-09-23T00:00:00+00:00</updated>
   </info>
   <citation>
     <layout delimiter="; ">
@@ -39,6 +38,23 @@
             <text value="Volume"/>
             <text variable="volume"/>
           </group>
+        </group>
+        <group delimiter=", ">
+          <group delimiter=" ">
+            <text value="In"/>
+            <text variable="container-title"/>
+          </group>
+          <choose>
+            <if variable="editor">
+              <group delimiter=" ">
+                <text value="edited by"/>
+                <names variable="editor">
+                  <name initialize="false" and="text" delimiter=", "/>
+                </names>
+              </group>
+            </if>
+          </choose>
+          <text variable="page" prefix="pp. "/>
         </group>
         <group delimiter=" ">
           <number variable="edition" form="ordinal"/>

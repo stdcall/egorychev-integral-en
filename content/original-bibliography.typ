@@ -413,9 +413,9 @@
   numbers_, Nieuw Arch. Wisk. (3) 14 (1966), 241–246.
 ]
 
-#original-reference("Feller1957")[
+#original-reference("Feller1968")[
   William Feller, _An introduction to probability theory and its applications.
-  Vol. 1, 2nd ed._, Wiley, 1957.
+  Vol. 1, 3rd ed._, Wiley, 1968.
 ]
 
 #original-reference("Fjeldstad1954")[

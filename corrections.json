@@ -3139,5 +3139,64 @@
     "original": "[202], [5] and [234]",
     "corrected": "[202], [5] and [240]",
     "reason": "Russian p. 225 cites [108, 4, 116], namely Shabat, Aizenberg–Zinoviev and Yuzhakov (bibliography pp. 271, 276). English [234] is Vinogradov on trigonometric sums; the corresponding Yuzhakov monograph is [240]. Restoring that work is supported by the Russian edition, unlike the initially suspected [235] Vladimirov."
+  },
+  {
+    "id": "E376",
+    "printed_page": "278",
+    "location": "Bibliography, [75]",
+    "original": "Vol. 1, 2nd ed., Wiley, 1957",
+    "corrected": "Vol. 1, 3rd ed., Wiley, 1968",
+    "reason": "Cite the final third edition; every locator of [75] was checked against it. The locators on pp. 18, 37, 38, 59, 66 and 84 change with the edition. Chapter 2, (12.1), (12.6), (12.8) and Chapters XI and XII agree. The second edition was not consulted."
+  },
+  {
+    "id": "E377",
+    "printed_page": "18",
+    "location": "1.3, generating functions and operational calculus",
+    "original": "[75], p. 212",
+    "corrected": "[75], p. 264",
+    "reason": "In the third edition, Chapter XI, §1, p. 264, places generating functions among operational methods."
+  },
+  {
+    "id": "E378",
+    "printed_page": "37",
+    "location": "§1.7, first quotation from Feller",
+    "original": "[75], p. 212",
+    "corrected": "[75], p. 264",
+    "reason": "The quoted sentence is in Chapter XI, §1, p. 264, of the third edition, verbatim."
+  },
+  {
+    "id": "E379",
+    "printed_page": "38",
+    "location": "§1.7, second quotation from Feller",
+    "original": "[75], p. 212",
+    "corrected": "[75], p. 264",
+    "reason": "The quoted passage is in Chapter XI, §1, p. 264, of the third edition. Apart from the bracketed [is], which replaces “which will later be recognized as”, the wording agrees."
+  },
+  {
+    "id": "E380",
+    "printed_page": "66",
+    "location": "Example 4, reference",
+    "original": "Chapter VII, §5, (5.2)",
+    "corrected": "Chapter VII, §6, (6.7)",
+    "reason": "In the third edition, large deviations form Chapter VII, §6. Formula (6.7), p. 193, is the tail asymptotic (2 pi)^(-1/2) x^(-1) exp(-x^2/2) under x^3/sqrt(n) -> 0; the lower tail follows by exchanging p and q.",
+    "reason_typst": "In the third edition, large deviations form Chapter VII, §6. Formula (6.7), p. 193, is the tail asymptotic $1/(sqrt(2pi) x) e^(-x^2\\/2)$ under $x^3\\/sqrt(n) -> 0$; the lower tail follows by exchanging $p$ and $q$."
+  },
+  {
+    "id": "E381",
+    "printed_page": "84",
+    "location": "2.4.8(k), reference",
+    "original": "Chapter 3, §6, formula (6.4), and the remark in Chapter 11, §3a",
+    "corrected": "Chapter 3, §7, formula (7.4), and the remark in Chapter 11, §3d",
+    "reason": "Third-edition locators. III (7.4), p. 89, gives the first passage through x at epoch n for p = 1/2 as (p_(n-1,x-1) - p_(n-1,x+1))/2, which equals the bracket on the right. XI.3(d), p. 274, states that Phi^x generates the first passages through x, with Phi from (3.6).",
+    "reason_typst": "Third-edition locators. III (7.4), p. 89, gives the first passage through $x$ at epoch $n$ for $p=1\\/2$ as $(p_(n-1,x-1)-p_(n-1,x+1))\\/2$, which equals the bracket on the right. XI.3(d), p. 274, states that $Phi^x$ generates the first passages through $x$, with $Phi$ from (3.6)."
+  },
+  {
+    "id": "E382",
+    "printed_page": "59",
+    "location": "Example 17, count of diagonal paths",
+    "original": "Chapter III, §2, (2.6)",
+    "corrected": "Chapter III, §9, (9.1)",
+    "reason": "In the third edition, III (2.6), p. 75, is the renewal relation between u_(2n) and f_(2n). The count (1/(n+1)) choose(2n, n) of paths to (2n, 0) that never go below the axis is III (9.1), p. 95.",
+    "reason_typst": "In the third edition, III (2.6), p. 75, is the renewal relation between $u_(2n)$ and $f_(2n)$. The count $1/(n+1) binom(2n, n)$ of paths to $(2n,0)$ that never go below the axis is III (9.1), p. 95."
   }
 ]

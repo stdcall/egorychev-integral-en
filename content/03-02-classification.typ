@@ -35,6 +35,6 @@ corresponding Jacobian factor, in the Cauchy algebra of ordinary power series.
 
 When the series are probability generating functions, multiplication describes
 the sum of independent random variables, and composition describes an
-independent random sum (see #bib-ref("Feller1957"), Chapters XI and XII). These
+independent random sum (see #bib-ref("Feller1968"), Chapters XI and XII). These
 interpretations require nonnegative, normalized coefficients; general weights
 and inverse substitutions need not preserve them.

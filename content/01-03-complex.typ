@@ -58,7 +58,7 @@ residue is obvious.
 If only the properties of res are used in computations for a specific case, the
 calculations are correct in the algebra of formal power series. In this case the
 method of integral representation of sums, like the tool of generating functions
-in probability theory (see #bib-ref("Feller1957"), p. 212), can be interpreted
+in probability theory (see #bib-ref("Feller1968"), p. 264), can be interpreted
 as a method of operational calculus. But if it is necessary to use the concept
 of convergence in calculations, then we should pass, according to
 @eq:cauchy-coefficient, from res to the use of contour integrals and their

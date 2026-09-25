@@ -69,7 +69,7 @@ in the theory of finite differences and algebraic invariants, the theory of
 special functions, and especially in probability theory, mathematical
 statistics, and analytic number theory (see, for example, #bib-ref(
   "Goncharov1944",
-), #bib-ref("David1962"), #bib-ref("Feller1957"), #bib-ref("Malyshev1970"),
+), #bib-ref("David1962"), #bib-ref("Feller1968"), #bib-ref("Malyshev1970"),
 #bib-ref("Takacs1967"), #bib-ref("Linnik1972") and the surveys in #bib-ref(
   "Postnikov1971",
 ), #bib-ref("Hardy1938"), #bib-ref("Karatsuba1975") and #bib-ref(
@@ -180,7 +180,7 @@ results of Good (#bib-ref("Good1961a"), #bib-ref("Good1962b"), #bib-ref(
 )) and Dyson #bib-ref("Dyson1962"). Among investigations on the determination
 and use of generating functions the fundamental works of MacMahon #bib-ref(
   "MacMahon1915",
-) and Feller #bib-ref("Feller1957") have aroused the greatest interest (see also
+) and Feller #bib-ref("Feller1968") have aroused the greatest interest (see also
 #bib-ref("McBride1971")). A more detailed characterization of the methods used
 in obtaining combinatorial identities and in computing combinatorial sums is
 presented in §@sec:historical-notes and in the #link(
