@@ -62,11 +62,7 @@ the unitriangular group $op("UT")(n,K)$.*])[
   the diagonal. This construction is reversible. When $i=r$, use the unique
   empty path.
 
-  The number of these paths is (#bib-ref("Feller1968"), Chapter III, §9,
-  (9.1))#editorial-note("diagonal-paths")[
-    See also #cite(<Krattenthaler2015>, supplement: [Corollary 10.3.2,
-      (10.11)]).
-  ]
+  The number of these paths is (#bib-ref("Feller1968"), Chapter III, §9, (9.1))
   $
     Phi(i-r, i-r)=frac(1, i-r+1)binom(2i-2r, i-r).
   $
@@ -105,6 +101,9 @@ the unitriangular group $op("UT")(n,K)$.*])[
     Here $B(r,n)=N(n,r+1)$ in the usual Narayana notation; see #cite(
       <Stanley2015>,
       supplement: [Problem A46(a), pp. 124–125],
+    ). For $Phi(m, m)$, see also #cite(
+      <Krattenthaler2015>,
+      supplement: [Corollary 10.3.2],
     ).
   ] have been found, they can also be proved combinatorially; this is left to
   the reader. This typical situation illustrates the role of analytic,
