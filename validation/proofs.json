@@ -1,0 +1,150 @@
+[
+  {
+    "file": "validation/lean/AlternatingBoundary.lean",
+    "sha256": "f9d5b38837d82bab35360efc35dbcef73ee637cb1a6f8b2b78f236e209749f17",
+    "declarations": [
+      "Egorychev.AlternatingBoundary.faces_eq_sum",
+      "Egorychev.AlternatingBoundary.boundary_prepend",
+      "Egorychev.AlternatingBoundary.boundary_faces",
+      "Egorychev.AlternatingBoundary.boundary_boundary"
+    ],
+    "content_sha256": {
+      "content/supp-01-stokes.typ": "9a09552f249a8fb6b97bb60f79aa39cffc4c8243a4fe3b68565f3f1d6e1ffa7f"
+    }
+  },
+  {
+    "file": "validation/lean/BinomialHalf.lean",
+    "sha256": "6f5baad6b3b1443386cf13300d78ed9f1fcf31df443fd7f94cdf88bafdb8fc49",
+    "declarations": [
+      "Egorychev.even_binomial_half",
+      "Egorychev.odd_binomial_half"
+    ],
+    "content_sha256": {
+      "content/02-02-classification.typ": "6cb7ecf163aebbc74b6b2389c53e2b5a54fdae1a8c756e08deb49c78dd4a0265"
+    }
+  },
+  {
+    "file": "validation/lean/CommutatorCollection.lean",
+    "sha256": "5f515d815984590950989f876f63f66a1ceb8d8520be20bf6e1c1ab31ea50791",
+    "declarations": [
+      "Egorychev.Collection.comm_mul_left",
+      "Egorychev.Collection.comm_list_prod"
+    ],
+    "content_sha256": {
+      "content/06-04-p-central.typ": "2815d5c69284f3c7c5f075ca18daa501f86b2eff438fcf5cd4c20dfce01856e4"
+    }
+  },
+  {
+    "file": "validation/lean/DysonDeterminant.lean",
+    "sha256": "13d7586d7615ef721f2b3342260fd93b5db22b0dabe6725728c2e2c3fe89748a",
+    "declarations": [
+      "Egorychev.dyson_linear_determinant"
+    ],
+    "content_sha256": {
+      "content/05-01-dyson.typ": "6fa1159dd79b956dc2bf6f56d43fb80fb17a45873cbad30e54c0780c287b15d7"
+    }
+  },
+  {
+    "file": "validation/lean/ElementarySums.lean",
+    "sha256": "8c72785600c1713cd2b76d9ed6c2fe3c3daa188f81610ac03de6d6c7b3493c27",
+    "declarations": [
+      "Egorychev.alternating_binomial_prefix",
+      "Egorychev.binomial_reexpansion"
+    ],
+    "content_sha256": {
+      "content/02-01-linearity.typ": "9b2e33b320032911f1cee3b3e8534d0e3eda88f30791778fa1e8ded50ce33878",
+      "content/02-01-substitution.typ": "2b27fc32e7f1e8a510a44423a4c3d764558854b9e3cd331b2a11054c7b18fbc6"
+    }
+  },
+  {
+    "file": "validation/lean/ExampleIdentities.lean",
+    "sha256": "ef21e159f205083e9393638ed2070fbc763babcd9c595117e9373c6ae737fb43",
+    "declarations": [
+      "Egorychev.grosswald_polynomial_reduction",
+      "Egorychev.carlitz_jacobian_transpose"
+    ],
+    "content_sha256": {
+      "content/01-05-finite.typ": "4d52dda11bfbe3d785ac6d78093cbe6e6eda7752bc14b225a41845836994e165",
+      "content/01-05-carlitz.typ": "32bbf4f2919f29934cf9440e2eab528ce4753fb35dfb7367eadee74122b77637"
+    }
+  },
+  {
+    "file": "validation/lean/Lerch.lean",
+    "sha256": "1eddebdc746bad155f9413f4c48bd0b4d58345693630c8534b982116249ecddc",
+    "declarations": [
+      "Egorychev.lerch_prefix"
+    ],
+    "content_sha256": {
+      "content/02-03-classical.typ": "84a0394d09661801ea42ffe4a3548c711b779947222fabf1178fd028553b6784"
+    }
+  },
+  {
+    "file": "validation/lean/MonomialCoefficient.lean",
+    "sha256": "1206d9bd075b422934c5299e744112fa5304dc7bc2340b6f8eb5a8c662af4dae",
+    "declarations": [
+      "Egorychev.monomialExponent_injective",
+      "Egorychev.shiftExponent_injective",
+      "Egorychev.monomial_substitution_constant_coefficient"
+    ],
+    "content_sha256": {
+      "content/01-02-res.typ": "8763c4fb989c9db536380a39fce362cd5abe19ba6a07bb6a56c0f5ed80c0617d"
+    }
+  },
+  {
+    "file": "validation/lean/Narayana.lean",
+    "sha256": "22cabfc71245575484e736609ae3ef69b588b26c2061efc9239e585c50c6d079",
+    "declarations": [
+      "Egorychev.subgroup_convolution",
+      "Egorychev.narayana_row_sum"
+    ],
+    "content_sha256": {
+      "content/02-01-subgroups.typ": "19beb7ea4880fb5a614105e56b167faea0c8cfeaf0acca917c7ba320ac093f85"
+    }
+  },
+  {
+    "file": "validation/lean/Recurrence.lean",
+    "sha256": "c4cfcbee60d5fa874544933326cf98b6e244d7b68ae1c624c3f2af1728c74bce",
+    "declarations": [
+      "Egorychev.recurrenceSolution_rec",
+      "Egorychev.recurrenceSolution_unique",
+      "Egorychev.dividedPower_mul",
+      "Egorychev.dividedPower_diagonal"
+    ],
+    "content_sha256": {
+      "content/01-06-recurrence.typ": "48e69eb85e3abe6795605c7fd218ec9637cc3c4c719d1db79068b4571c1739e8"
+    }
+  },
+  {
+    "file": "validation/lean/SaddleVariance.lean",
+    "sha256": "632d583871060d4f0f3539ba21820cffaa73aa4925d276e6a1146c3a15edb7e7",
+    "declarations": [
+      "Egorychev.weighted_projection_variance_pos"
+    ],
+    "content_sha256": {
+      "content/04-04-good.typ": "be3acae5b06e253b4b325b69e4d70ac311bd2edf531ee286adf5da938dfc74f7"
+    }
+  },
+  {
+    "file": "validation/lean/Shoo.lean",
+    "sha256": "5345f2b5a4447a4cbd82a5ddd3bfa6f7c1e46867a3cfb5ae5878b763a27246c6",
+    "declarations": [
+      "Egorychev.shoo_last_convolution"
+    ],
+    "content_sha256": {
+      "content/02-01-various.typ": "4ea14dc0b383654e1a74bbb50936a9b21cff5decd72054b25a716be8b953b103"
+    }
+  },
+  {
+    "file": "validation/lean/WordBracketing.lean",
+    "sha256": "e076f410a9e38faa31b4e7e5f9af9fe7b3771f2912893b61f801fa3595675b5c",
+    "declarations": [
+      "Egorychev.BracketWord.spine_foldl",
+      "Egorychev.BracketWord.spine_join",
+      "Egorychev.BracketWord.join_spine",
+      "Egorychev.BracketWord.join_injective"
+    ],
+    "content_sha256": {
+      "content/06-03-solvable-ranks.typ": "ba65171c4c6107b1a8ec7c5e3567947af48804af8f8db4466e6ea8b39dc1bc3d"
+    }
+  }
+]

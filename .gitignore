@@ -1,0 +1,6 @@
+build/
+.venv/
+.lake/
+__pycache__/
+.DS_Store
+tinymist.lock

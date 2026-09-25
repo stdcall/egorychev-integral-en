@@ -1,0 +1,17 @@
+{
+  "typst": {
+    "url": "https://github.com/typst/typst/releases/download/v0.15.1/typst-x86_64-unknown-linux-musl.tar.xz",
+    "sha256": "a6d077d0a95eed5a2eba715b2dae06be954f624ccbf85758a03f389ded33118c",
+    "archive": true
+  },
+  "typstyle": {
+    "url": "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.1/typstyle-x86_64-unknown-linux-musl",
+    "sha256": "7aaa0b0fe54ee859c2e138c3f8d307960b06fe072ab9eb14bcf6ab50b5fe9c86",
+    "archive": false
+  },
+  "tinymist": {
+    "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.15.8/tinymist-x86_64-unknown-linux-gnu.tar.gz",
+    "sha256": "2428932e8d8b593ebc1ac4eed41fb9d3584166e1044bbcdef740b7296c348295",
+    "archive": true
+  }
+}

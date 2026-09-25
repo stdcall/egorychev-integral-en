@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0"
+       class="in-text" default-locale="en-US">
+  <info>
+    <title>Egorychev editorial author, short title and year</title>
+    <id>urn:egorychev:editorial-author-title</id>
+    <updated>2026-09-23T00:00:00+00:00</updated>
+  </info>
+  <citation>
+    <layout delimiter="; ">
+      <group delimiter=", ">
+        <names variable="author">
+          <name form="short" delimiter="–" delimiter-precedes-last="never"/>
+        </names>
+        <group delimiter=" ">
+          <text variable="title" form="short" font-style="italic"/>
+          <date variable="issued" prefix="(" suffix=")">
+            <date-part name="year"/>
+          </date>
+        </group>
+        <text variable="locator"/>
+      </group>
+    </layout>
+  </citation>
+  <bibliography hanging-indent="true" entry-spacing="1">
+    <sort>
+      <key variable="author"/>
+      <key variable="issued"/>
+      <key variable="title"/>
+    </sort>
+    <layout suffix=".">
+      <group delimiter=". ">
+        <names variable="author">
+          <name initialize="false" and="text" delimiter=", "/>
+        </names>
+        <group delimiter=", " font-style="italic">
+          <text variable="title"/>
+          <group delimiter=" ">
+            <text value="Volume"/>
+            <text variable="volume"/>
+          </group>
+        </group>
+        <group delimiter=" ">
+          <number variable="edition" form="ordinal"/>
+          <text value="edition"/>
+        </group>
+        <group delimiter=" ">
+          <text variable="collection-title"/>
+          <choose>
+            <if variable="collection-number">
+              <text variable="collection-number"/>
+            </if>
+            <else><text variable="issue"/></else>
+          </choose>
+        </group>
+        <group delimiter=", ">
+          <text variable="publisher"/>
+          <date variable="issued"><date-part name="year"/></date>
+        </group>
+        <text variable="DOI" prefix="https://doi.org/"/>
+      </group>
+    </layout>
+  </bibliography>
+</style>

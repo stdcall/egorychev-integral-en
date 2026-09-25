@@ -1,0 +1,12 @@
+name = "EgorychevChecks"
+version = "0.1.0"
+defaultTargets = ["EgorychevChecks"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "a218e50f981942cba4fd060faff7cae680805062"
+
+[[lean_lib]]
+name = "EgorychevChecks"
+roots = ["EgorychevChecks", "AlternatingBoundary", "BinomialHalf", "CommutatorCollection", "DysonDeterminant", "ElementarySums", "ExampleIdentities", "Lerch", "MonomialCoefficient", "Narayana", "Recurrence", "SaddleVariance", "Shoo", "WordBracketing"]

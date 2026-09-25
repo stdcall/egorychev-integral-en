@@ -1,0 +1,3515 @@
+{
+  "headings": {
+    "sec:main-residue-theorem": "1.4.",
+    "sec:lattice-paths": "4.4.3.",
+    "supp:local-inversion": "5.2.",
+    "sec:other-interpretations": "4.2.3.",
+    "ch:combinatorial-interpretation": "4.",
+    "sec:rota-generating-functions": "4.1.",
+    "sec:poset-terminology": "4.1.1.",
+    "sec:incidence-algebra": "4.1.2.",
+    "sec:asymptotic-estimates": "4.4.",
+    "sec:tauberian-estimates": "4.4.1.",
+    "sec:lee-identity": "5.5.2.",
+    "supp:implicit-coefficients": "5.3.",
+    "sec:bounded-kernels": "6.2.",
+    "sec:method-examples": "1.5.",
+    "sec:hardy-sum": "1.5.1.",
+    "sec:grosswald-identity": "1.5.2.",
+    "sec:hypergeometric-summation": "2.3.",
+    "sec:bateman-idea": "2.3.1.",
+    "sec:hypergeometric-formulas": "2.3.2.",
+    "sec:p-central-ranks": "§6.4.",
+    "sec:identity-interpretations": "4.2.",
+    "sec:combinatorial-numbers": "4.2.1.",
+    "sec:stirling-tree-proof": "4.2.2.",
+    "sec:matrix-inversion": "3.1.",
+    "sec:szego-computation": "6.1.2.",
+    "sec:other-multiple-sums": "5.1.3.",
+    "sec:splitting-method": "5.3.",
+    "sec:splitting-idea": "5.3.1.",
+    "sec:diagonal-generating-functions": "5.3.2.",
+    "sec:enumeration-integrals": "4.3.",
+    "sec:unique-hamiltonian-tournaments": "4.3.1.",
+    "supp:derham-duality": "2.3.",
+    "sec:inversion-rule": "2.1.3.",
+    "sec:substitution-rule": "2.1.2.",
+    "sec:free-polynilpotent-ranks": "6.3.2.",
+    "supp:regular-branches": "5.4.",
+    "sec:binomial-sum-classification": "2.2.",
+    "sec:reduced-incidence-algebra": "4.1.3.",
+    "supp:zero-multiplicity": "4.1.",
+    "supp:logarithmic-residue": "§4.",
+    "sec:bipartite-colorings": "4.4.4.",
+    "sec:inversion-problems": "3.4.",
+    "ch:applications": "6.",
+    "sec:unbounded-szego-kernels": "6.1.",
+    "sec:szego-representation": "6.1.1.",
+    "supp:local-residues": "§3.",
+    "supp:higher-local-residues": "3.2.",
+    "supp:linear-singularities": "3.3.",
+    "sec:various-sums": "2.1.4.",
+    "supp:chains-and-homology": "1.3.",
+    "supp:integration-over-chains": "1.4.",
+    "supp:stokes-formula": "1.5.",
+    "sec:kings-and-rooks": "4.3.3.",
+    "sec:dyson-function": "5.1.2.",
+    "sec:residue-rules": "1.2.",
+    "sec:multivariate-residue-rules": "1.2.1.",
+    "sec:univariate-residue-rules": "1.2.2.",
+    "sec:residue-rule-proofs": "1.2.3.",
+    "table:binomial": "I.",
+    "table:binomial-univariate": "a)",
+    "table:binomial-multivariate": "b)",
+    "sec:new-identities": "5.5.",
+    "sec:multivariate-liskovets": "5.5.1.",
+    "ch:open-problems": "7.",
+    "sec:univariate-inversion": "3.2.",
+    "sec:liskovets-problem": "3.2.1.",
+    "sec:multivariate-problems": "5.6.",
+    "supp:implicit-examples": "5.5.",
+    "sec:inverse-pair-classification": "3.2.3.",
+    "ch:integral-method": "1.",
+    "sec:computation-algorithm": "1.1.",
+    "sec:generating-function-operations": "1.6.",
+    "sec:historical-notes": "1.7.",
+    "ch:univariate-sums": "2.",
+    "sec:carlitz-multiple-sum": "1.5.3.",
+    "sec:splitting-sums": "5.4.2.",
+    "supp:forms-and-stokes": "§1.",
+    "supp:manifolds": "1.1.",
+    "supp:differential-forms": "1.2.",
+    "supp:residue-theory": "§2.",
+    "supp:subject-of-residue-theory": "2.1.",
+    "supp:alexander-duality": "2.2.",
+    "sec:multivariate-inversion": "3.3.",
+    "sec:splitting-integrals": "5.4.",
+    "sec:splitting-lemma": "5.4.1.",
+    "sec:andrews-method": "2.3.3.",
+    "sec:complex-analysis-connection": "1.3.",
+    "sec:matrix-selection": "4.4.2.",
+    "ch:inverse-relations": "3.",
+    "sec:interpretation-problems": "4.5.",
+    "sec:linear-constraints": "5.2.",
+    "supp:logarithmic-torus-integral": "4.2.",
+    "sec:solvable-polynilpotent-ranks": "6.3.",
+    "sec:free-solvable-ranks": "6.3.1.",
+    "ch:multivariate-sums": "5.",
+    "sec:independent-indices": "5.1.",
+    "sec:dixon-sum": "5.1.1.",
+    "sec:solvable-group-ranks": "4.3.2.",
+    "supp:implicit-and-inverse-maps": "§5.",
+    "supp:implicit-lagrange-series": "5.1.",
+    "sec:univariate-problems": "2.4.",
+    "sec:sum-computation": "2.1.",
+    "sec:linearity-rule": "2.1.1.",
+    "sec:classical-inverse-pairs": "3.2.2.",
+    "sec:bergman-kernel": "1.5.4.",
+    "supp:leray-residues": "2.4.",
+    "supp:plane-local-residues": "3.1.",
+    "table:logarithmic": "II.",
+    "table:exponential": "III.",
+    "table:euler": "IV.",
+    "table:bernoulli": "V.",
+    "table:stirling-first": "VI.",
+    "table:stirling-second": "VII.",
+    "table:gamma": "VIII.",
+    "table:beta": "IX.",
+    "table:generalized-stirling": "X.",
+    "table:generalized-bernoulli": "XI.",
+    "table:higher-euler": "XII.",
+    "table:eulerian": "XIII."
+  },
+  "bibliography": {
+    "Abramson1966": "1",
+    "Abramson1973": "2",
+    "Aizenberg1964": "3",
+    "Aizenberg1973": "4",
+    "Aizenberg1975": "5",
+    "Aleksandrov1947": "6",
+    "Andrews1971": "7",
+    "Andrews1973": "8",
+    "Andrews1974": "9",
+    "Andrews1975": "10",
+    "Austin1960": "11",
+    "Avramenok1975": "12",
+    "Bachmuth1966": "13",
+    "Bailey1935": "14",
+    "Bajsanski1954": "15",
+    "Erdelyi1953": "16",
+    "Erdelyi1955": "17",
+    "Beckenbach1964": "18",
+    "Beineke1969": "19",
+    "Bell1923": "20",
+    "Bell1927": "21",
+    "Bell1940": "22",
+    "Berge1968": "23",
+    "Bhaskaranada1968": "24",
+    "Birnbaum1958": "25",
+    "Bizley1960": "26",
+    "Bizley1970": "27",
+    "Bochner1948": "28",
+    "Bokut1963": "29",
+    "Borodin1969": "30",
+    "Bourbaki1950": "31",
+    "Bremermann1965": "32",
+    "Caccioppoli1949": "33",
+    "Carlitz1964": "34",
+    "Carlitz1965": "35",
+    "Carlitz1969": "36",
+    "Carlitz1968": "37",
+    "Carlitz1973a": "38",
+    "Carlitz1974": "39",
+    "Carlitz1973b": "40",
+    "Carlitz1972": "41",
+    "Cartan1961": "42",
+    "Cayley1856": "43",
+    "Chalmers1968": "44",
+    "Chebotarev1948": "45",
+    "Chottin1975": "46",
+    "Church1970": "47",
+    "Consul1970": "48",
+    "Consul1972": "49",
+    "Consul1973": "50",
+    "Csorgo1965": "51",
+    "Cvetkovic1973": "52",
+    "Darboux1878": "53",
+    "David1962": "54",
+    "Doubilet1972a": "55",
+    "Doubilet1972b": "56",
+    "Douglas1970": "57",
+    "Dyson1962": "58",
+    "Gunson1962": "58a",
+    "Wilson1962": "58b",
+    "Efros1937": "59",
+    "Egorychev1970a": "60",
+    "Egorychev1970b": "61",
+    "Egorychev1972a": "62",
+    "Egorychev1974a": "63",
+    "Egorychev1974b": "64",
+    "Egorychev1973a": "65",
+    "Egorychev1973b": "66",
+    "Egorychev1974c": "67",
+    "Egorychev1975a": "68",
+    "Egorychev1975b": "69",
+    "Egorychev1975c": "70",
+    "Egorychev1972b": "71",
+    "Egorychev1974d": "72",
+    "Engelberg1965": "73",
+    "Entringer1966": "74",
+    "Feller1957": "75",
+    "Fjeldstad1954": "76",
+    "Freud1951": "77",
+    "Fuks1962": "78",
+    "Fuks1963": "79",
+    "Fuks1969": "80",
+    "Gelfond1966": "81",
+    "Gelfond1967": "82",
+    "Gelfond1962": "83",
+    "Goldberg1958": "84",
+    "Goldman1970": "85",
+    "Goncharov1944": "86",
+    "Good1957": "87",
+    "Good1960": "88",
+    "Good1961a": "89",
+    "Good1961b": "90",
+    "Good1962a": "91",
+    "Good1962b": "92",
+    "Good1965": "93",
+    "Gorchakov1970": "94",
+    "Gorchakov1972": "95",
+    "Gorchakov1973": "96",
+    "Gould1956": "97",
+    "Gould1960": "98",
+    "Gould1967": "99",
+    "Gould1969": "100",
+    "Gould1972a": "101",
+    "Gould1972b": "102",
+    "Gould1972c": "103",
+    "Gould1974": "104",
+    "Govindarajulu1963": "105",
+    "Gradshtein1963": "106",
+    "Gruenberg1957": "107",
+    "Gupta1954": "108",
+    "Hagen1891": "109",
+    "Hagis1964": "110",
+    "Halmos1950": "111",
+    "Hall1959": "112",
+    "Hall1958": "113",
+    "Handa1969": "114",
+    "Harary1969": "115",
+    "Hardy1949": "116",
+    "Hardy1930": "117",
+    "Hardy1918": "118",
+    "Hardy1938": "119",
+    "Hautus1971": "120",
+    "Hermite1865": "121",
+    "Hietala1965": "122",
+    "Holt1974": "123",
+    "Hormander1966": "124",
+    "Hsu1954": "125",
+    "Hurwitz1929": "126",
+    "Hwa1966": "127",
+    "Ivchenko1965a": "128",
+    "Ivchenko1965b": "129",
+    "Karatsuba1975": "130",
+    "Kaucky1966": "131",
+    "Kaucky1975": "132",
+    "Kelley1955": "133",
+    "Knuth1969": "134",
+    "Kolchin1966": "135",
+    "Kolchin1974": "136",
+    "Kolchin1976": "137",
+    "Konovaltsev1970": "138",
+    "Kourovka1967": "139",
+    "Krechmar1950": "140",
+    "Kutlumuratov1964": "141",
+    "Leray1959": "142",
+    "Levchuk1974": "143",
+    "Linnik1972": "144",
+    "Liskovets1969": "145",
+    "Lyamin1969": "146",
+    "MacMahon1915": "147",
+    "Malyshev1973": "148",
+    "Malyshev1970": "149",
+    "Malyshev1976": "150",
+    "Ascher1974": "151",
+    "Martinelli1953": "152",
+    "Martinelli1955": "153",
+    "Mathai1972": "154",
+    "Mathai1973": "155",
+    "McBride1971": "156",
+    "Milnor1968": "157",
+    "Mohanty1969": "158",
+    "Mohanty1970": "159",
+    "Moon1967": "160",
+    "Mullin1970": "161",
+    "Mullin1967": "162",
+    "Naimark1956": "163",
+    "Narasimhan1968": "164",
+    "Netto1927": "165",
+    "Nguyen1973": "166",
+    "Niven1969": "167",
+    "Papp1972": "168",
+    "Percus1964": "169",
+    "Percus1971": "170",
+    "Pham1967": "171",
+    "Platonov1975": "172",
+    "Poincare1887": "173",
+    "Polya1937": "174",
+    "Postnikov1971": "175",
+    "Prachar1957": "176",
+    "Ramanujacharyulu1969": "177",
+    "Ramanujan1927": "178",
+    "Rashevskii1967": "179",
+    "Rasulov1964": "180",
+    "Rasulov1975": "181",
+    "Renyi1959": "182",
+    "Renyi1966": "183",
+    "deRham1955": "184",
+    "Riekstins1974": "185",
+    "Riordan1958": "186",
+    "Riordan1968": "187",
+    "GarciaRodeja1967": "188",
+    "Rohatgi1966": "189",
+    "Rohatgi1964": "190",
+    "Rota1964": "191",
+    "Rota1969": "192",
+    "Rota1973": "193",
+    "Rybnikov1972": "194",
+    "Sachkov1973": "195",
+    "Sack1965": "196",
+    "Sarmanov1972": "197",
+    "Schwatt1924": "198",
+    "Selivanov1972": "199",
+    "Sevastyanov1967": "200",
+    "Sevastyanov1964": "201",
+    "Shabat1969": "202",
+    "Sheehan1970": "203",
+    "Shirokov1972": "204",
+    "Shirshov1962": "205",
+    "Shmelkin1964": "206",
+    "Singhal1972": "207",
+    "Sinha1969": "208",
+    "Sitgreaves1970": "209",
+    "Skalsky1967": "210",
+    "Skopin1950": "211",
+    "Skopin1965": "212",
+    "Slater1966": "213",
+    "Sokolov1969": "214",
+    "Sorani1960": "215",
+    "Spanier1966": "216",
+    "Srivastava1972": "217",
+    "Stanley1972": "218",
+    "Stanley1975": "219",
+    "Stechkin1975": "220",
+    "Stepanov1969": "221",
+    "Stepanov1973": "222",
+    "Subkhankulov1976": "223",
+    "Swenson1973": "224",
+    "Sylvester1857": "225",
+    "Szego1959": "226",
+    "Takacs1965": "227",
+    "Takacs1967": "228",
+    "Takacs1973": "229",
+    "Teleman1964": "230",
+    "Tutte1975": "231",
+    "Viktorova1965": "232",
+    "Vilenkin1969": "233",
+    "Vinogradov1971": "234",
+    "Vladimirov1964": "235",
+    "Whittaker1927": "236",
+    "Yuzhakov1962": "237",
+    "Yuzhakov1964": "238",
+    "Yuzhakov1972": "239",
+    "Yuzhakov1975a": "240",
+    "Yuzhakov1975b": "241",
+    "Yuzhakov1975c": "242",
+    "Yuzhakov1973": "243",
+    "Zinovev1971": "244",
+    "Zinovev1974": "245",
+    "Zinovev1973": "246",
+    "Hearne1973": "247",
+    "Borges1973": "248"
+  },
+  "statements": [
+    {
+      "label": "ex:moriarty-sum",
+      "kind": "Example",
+      "number": "1"
+    },
+    {
+      "label": "def:generating-series",
+      "kind": "Definition",
+      "number": "1.1.1"
+    },
+    {
+      "label": "def:formal-residue",
+      "kind": "Definition",
+      "number": "1.1.2"
+    },
+    {
+      "label": "rule:series-equality",
+      "kind": "Rule",
+      "number": "1"
+    },
+    {
+      "label": "rule:residue-linearity",
+      "kind": "Rule",
+      "number": "2"
+    },
+    {
+      "label": "rule:residue-substitution",
+      "kind": "Rule",
+      "number": "3"
+    },
+    {
+      "label": "rule:lagrange-summation",
+      "kind": "Rule",
+      "number": "4"
+    },
+    {
+      "label": "rule:residue-change-variables",
+      "kind": "Rule",
+      "number": "5"
+    },
+    {
+      "label": "rule:inverse-substitution",
+      "kind": "Rule",
+      "number": "6"
+    },
+    {
+      "label": "rule:residue-differentiation",
+      "kind": "Rule",
+      "number": "7"
+    },
+    {
+      "label": "rule:residue-integration",
+      "kind": "Rule",
+      "number": "8"
+    },
+    {
+      "label": "rule:series-equality-univariate",
+      "kind": "Rule",
+      "number": "1"
+    },
+    {
+      "label": "rule:residue-linearity-univariate",
+      "kind": "Rule",
+      "number": "2"
+    },
+    {
+      "label": "rule:residue-substitution-univariate",
+      "kind": "Rule",
+      "number": "3"
+    },
+    {
+      "label": "rule:lagrange-summation-univariate",
+      "kind": "Rule",
+      "number": "4"
+    },
+    {
+      "label": "rule:residue-change-variables-univariate",
+      "kind": "Rule",
+      "number": "5"
+    },
+    {
+      "label": "rule:inverse-substitution-univariate",
+      "kind": "Rule",
+      "number": "6"
+    },
+    {
+      "label": "rule:residue-differentiation-univariate",
+      "kind": "Rule",
+      "number": "7"
+    },
+    {
+      "label": "rule:residue-integration-univariate",
+      "kind": "Rule",
+      "number": "8"
+    },
+    {
+      "label": "th:coefficient-majorant",
+      "kind": "Theorem",
+      "number": "1.4.1"
+    },
+    {
+      "label": "th:residue-series-coefficients",
+      "kind": "Theorem",
+      "number": "1.4.2"
+    },
+    {
+      "label": "lem:polydisc-majorant",
+      "kind": "Lemma",
+      "number": "1.4.1"
+    },
+    {
+      "label": "th:carlitz-multivariate-identity",
+      "kind": "Theorem",
+      "number": "1.5.1"
+    },
+    {
+      "label": "lem:carlitz-determinant",
+      "kind": "Lemma",
+      "number": "1.5.1"
+    },
+    {
+      "label": "th:bergman-series",
+      "kind": "Theorem",
+      "number": "1.5.2"
+    },
+    {
+      "label": "ex:alternating-binomial",
+      "kind": "Example",
+      "number": "1"
+    },
+    {
+      "label": "ex:finite-difference-powers",
+      "kind": "Example",
+      "number": "2"
+    },
+    {
+      "label": "ex:catalan-ratio-bound",
+      "kind": "Example",
+      "number": "3"
+    },
+    {
+      "label": "th:catalan-ratio-value",
+      "kind": "Theorem",
+      "number": "2.1.1"
+    },
+    {
+      "label": "ex:central-binomial-reciprocal",
+      "kind": "Example",
+      "number": "4"
+    },
+    {
+      "label": "ex:binomial-product-transformation",
+      "kind": "Example",
+      "number": "5"
+    },
+    {
+      "label": "ex:abel-sum",
+      "kind": "Example",
+      "number": "6"
+    },
+    {
+      "label": "ex:hagen-rothe-sum",
+      "kind": "Example",
+      "number": "7"
+    },
+    {
+      "label": "ex:rising-factorial-convolution",
+      "kind": "Example",
+      "number": "8"
+    },
+    {
+      "label": "ex:stirling-bernoulli-sum",
+      "kind": "Example",
+      "number": "9"
+    },
+    {
+      "label": "ex:squared-binomial-sum",
+      "kind": "Example",
+      "number": "10"
+    },
+    {
+      "label": "ex:davis-identities",
+      "kind": "Example",
+      "number": "11"
+    },
+    {
+      "label": "ex:trigonometric-sum",
+      "kind": "Example",
+      "number": "12"
+    },
+    {
+      "label": "ex:stechkin-multiple-sum",
+      "kind": "Example",
+      "number": "13"
+    },
+    {
+      "label": "ex:harmonic-binomial-sum",
+      "kind": "Example",
+      "number": "14"
+    },
+    {
+      "label": "ex:stirling-multiple-sum",
+      "kind": "Example",
+      "number": "15"
+    },
+    {
+      "label": "ex:stirling-weighted-sum",
+      "kind": "Example",
+      "number": "16"
+    },
+    {
+      "label": "ex:unitriangular-subgroups",
+      "kind": "Example",
+      "number": "17"
+    },
+    {
+      "label": "th:partition-subgroup-count",
+      "kind": "Theorem",
+      "number": "2.1.2"
+    },
+    {
+      "label": "def:closed-form-computability",
+      "kind": "Definition",
+      "number": "2.2.1"
+    },
+    {
+      "label": "th:binomial-parameter-sum",
+      "kind": "Theorem",
+      "number": "2.2.1"
+    },
+    {
+      "label": "th:binomial-sum-classification",
+      "kind": "Theorem",
+      "number": "2.2.2"
+    },
+    {
+      "label": "ex:alternating-even-binomial",
+      "kind": "Example",
+      "number": "1"
+    },
+    {
+      "label": "ex:halved-binomial-sum",
+      "kind": "Example",
+      "number": "2"
+    },
+    {
+      "label": "ex:cubic-root-filter",
+      "kind": "Example",
+      "number": "3"
+    },
+    {
+      "label": "th:binomial-product-sum",
+      "kind": "Theorem",
+      "number": "2.2.3"
+    },
+    {
+      "label": "th:saddle-equation",
+      "kind": "Theorem",
+      "number": "2.2.4"
+    },
+    {
+      "label": "ex:binomial-tail",
+      "kind": "Example",
+      "number": "4"
+    },
+    {
+      "label": "def:gauss-series",
+      "kind": "Definition",
+      "number": "2.3.1"
+    },
+    {
+      "label": "def:hypergeometric-series",
+      "kind": "Definition",
+      "number": "2.3.2"
+    },
+    {
+      "label": "def:bilateral-parameter-conditions",
+      "kind": "Definition",
+      "number": "2.3.3"
+    },
+    {
+      "label": "def:basic-hypergeometric-series",
+      "kind": "Definition",
+      "number": "2.3.4"
+    },
+    {
+      "label": "def:basic-bilateral-parameter-conditions",
+      "kind": "Definition",
+      "number": "2.3.5"
+    },
+    {
+      "label": "ex:binomial-ratio-sum",
+      "kind": "Example",
+      "number": "1"
+    },
+    {
+      "label": "ex:saalschutz-summation",
+      "kind": "Example",
+      "number": "2"
+    },
+    {
+      "label": "ex:kummer-transformation",
+      "kind": "Example",
+      "number": "3"
+    },
+    {
+      "label": "ex:dougall-summation",
+      "kind": "Example",
+      "number": "4"
+    },
+    {
+      "label": "th:factorial-multiplication",
+      "kind": "Theorem",
+      "number": "2.3.1"
+    },
+    {
+      "label": "th:parameter-shift-invariance",
+      "kind": "Theorem",
+      "number": "2.3.2"
+    },
+    {
+      "label": "ex:moriarty-odd",
+      "kind": "Example",
+      "number": "5"
+    },
+    {
+      "label": "ex:q-moriarty-odd",
+      "kind": "Example",
+      "number": "6"
+    },
+    {
+      "label": "ex:dawson-identity",
+      "kind": "Example",
+      "number": "7"
+    },
+    {
+      "label": "ex:q-dawson-identity",
+      "kind": "Example",
+      "number": "8"
+    },
+    {
+      "label": "prob:elementary-binomial-sums",
+      "kind": "Problem",
+      "number": "2.4.1"
+    },
+    {
+      "label": "prob:graph-identities",
+      "kind": "Problem",
+      "number": "2.4.2"
+    },
+    {
+      "label": "prob:hagen-identities",
+      "kind": "Problem",
+      "number": "2.4.3"
+    },
+    {
+      "label": "prob:special-number-identities",
+      "kind": "Problem",
+      "number": "2.4.4"
+    },
+    {
+      "label": "prob:harmonic-identities",
+      "kind": "Problem",
+      "number": "2.4.5"
+    },
+    {
+      "label": "prob:trigonometric-identities",
+      "kind": "Problem",
+      "number": "2.4.6"
+    },
+    {
+      "label": "prob:residue-class-selection",
+      "kind": "Problem",
+      "number": "2.4.7"
+    },
+    {
+      "label": "prob:various-binomial-identities",
+      "kind": "Problem",
+      "number": "2.4.8"
+    },
+    {
+      "label": "prob:stirling-identities",
+      "kind": "Problem",
+      "number": "2.4.9"
+    },
+    {
+      "label": "prob:new-univariate-identities",
+      "kind": "Problem",
+      "number": "2.4.10"
+    },
+    {
+      "label": "prob:binomial-table-identities",
+      "kind": "Problem",
+      "number": "2.4.11"
+    },
+    {
+      "label": "def:inverse-matrix-pair",
+      "kind": "Definition",
+      "number": "3.1.1"
+    },
+    {
+      "label": "def:matrix-integral",
+      "kind": "Definition",
+      "number": "3.1.2"
+    },
+    {
+      "label": "th:polynomial-matrix-inclusion",
+      "kind": "Theorem",
+      "number": "3.1.1"
+    },
+    {
+      "label": "th:matrix-generating-relation",
+      "kind": "Theorem",
+      "number": "3.1.2"
+    },
+    {
+      "label": "th:matrix-decomposition",
+      "kind": "Theorem",
+      "number": "3.1.3"
+    },
+    {
+      "label": "th:liskovets-solution",
+      "kind": "Theorem",
+      "number": "3.2.1"
+    },
+    {
+      "label": "th:classical-inverse-pairs",
+      "kind": "Theorem",
+      "number": "3.2.2"
+    },
+    {
+      "label": "th:inverse-pair-classification",
+      "kind": "Theorem",
+      "number": "3.2.3"
+    },
+    {
+      "label": "th:multinomial-row-inversion",
+      "kind": "Theorem",
+      "number": "3.3.1"
+    },
+    {
+      "label": "prob:univariate-matrix-proofs",
+      "kind": "Problem",
+      "number": "3.4.1"
+    },
+    {
+      "label": "prob:binomial-inverse-pairs",
+      "kind": "Problem",
+      "number": "3.4.2"
+    },
+    {
+      "label": "prob:chebyshev-even-inversion",
+      "kind": "Problem",
+      "number": "3.4.3"
+    },
+    {
+      "label": "prob:chebyshev-step-inversion",
+      "kind": "Problem",
+      "number": "3.4.4"
+    },
+    {
+      "label": "prob:legendre-inversion",
+      "kind": "Problem",
+      "number": "3.4.5"
+    },
+    {
+      "label": "prob:legendre-chebyshev-inversion",
+      "kind": "Problem",
+      "number": "3.4.6"
+    },
+    {
+      "label": "prob:abel-inversion",
+      "kind": "Problem",
+      "number": "3.4.7"
+    },
+    {
+      "label": "prob:ordinary-inversion",
+      "kind": "Problem",
+      "number": "3.4.8"
+    },
+    {
+      "label": "prob:exponential-inverse-pairs",
+      "kind": "Problem",
+      "number": "3.4.9"
+    },
+    {
+      "label": "prob:exponential-inversion",
+      "kind": "Problem",
+      "number": "3.4.10"
+    },
+    {
+      "label": "prob:multivariate-inverse-pairs",
+      "kind": "Problem",
+      "number": "3.4.11"
+    },
+    {
+      "label": "prob:functional-pair-equivalence",
+      "kind": "Problem",
+      "number": "3.4.12"
+    },
+    {
+      "label": "prob:summation-relations",
+      "kind": "Problem",
+      "number": "3.4.13"
+    },
+    {
+      "label": "prop:zeta-invertibility",
+      "kind": "Proposition",
+      "number": "4.1.1"
+    },
+    {
+      "label": "prop:mobius-inversion",
+      "kind": "Proposition",
+      "number": "4.1.2"
+    },
+    {
+      "label": "prop:interval-restriction",
+      "kind": "Proposition",
+      "number": "4.1.3"
+    },
+    {
+      "label": "prop:boolean-mobius-function",
+      "kind": "Proposition",
+      "number": "4.1.4"
+    },
+    {
+      "label": "prop:compatible-equivalence-lattice",
+      "kind": "Proposition",
+      "number": "4.1.5"
+    },
+    {
+      "label": "th:reduced-algebra-characterization",
+      "kind": "Theorem",
+      "number": "4.1.1"
+    },
+    {
+      "label": "ex:chain-incidence-algebra",
+      "kind": "Example",
+      "number": "1"
+    },
+    {
+      "label": "ex:subset-incidence-algebra",
+      "kind": "Example",
+      "number": "2"
+    },
+    {
+      "label": "ex:rational-subgroup-incidence",
+      "kind": "Example",
+      "number": "3"
+    },
+    {
+      "label": "ex:divisibility-incidence-algebra",
+      "kind": "Example",
+      "number": "4"
+    },
+    {
+      "label": "ex:subspace-incidence-algebra",
+      "kind": "Example",
+      "number": "5"
+    },
+    {
+      "label": "th:tournament-generating-function",
+      "kind": "Theorem",
+      "number": "4.3.1"
+    },
+    {
+      "label": "th:solvable-third-rank-residue",
+      "kind": "Theorem",
+      "number": "4.3.2"
+    },
+    {
+      "label": "lem:metabelian-generating-residue",
+      "kind": "Lemma",
+      "number": "4.3.1"
+    },
+    {
+      "label": "lem:solvable-partition-residue",
+      "kind": "Lemma",
+      "number": "4.3.2"
+    },
+    {
+      "label": "lem:solvable-convolution-reduction",
+      "kind": "Lemma",
+      "number": "4.3.3"
+    },
+    {
+      "label": "lem:weighted-solvable-partitions",
+      "kind": "Lemma",
+      "number": "4.3.4"
+    },
+    {
+      "label": "lem:solvable-component-cancellation",
+      "kind": "Lemma",
+      "number": "4.3.5"
+    },
+    {
+      "label": "lem:permutation-intervals",
+      "kind": "Lemma",
+      "number": "4.3.6"
+    },
+    {
+      "label": "lem:nonconsecutive-subsets",
+      "kind": "Lemma",
+      "number": "4.3.7"
+    },
+    {
+      "label": "lem:interval-placement-count",
+      "kind": "Lemma",
+      "number": "4.3.8"
+    },
+    {
+      "label": "th:chess-permutation-count",
+      "kind": "Theorem",
+      "number": "4.3.3"
+    },
+    {
+      "label": "th:darboux-local-expansion",
+      "kind": "Theorem",
+      "number": "4.4.1"
+    },
+    {
+      "label": "th:laplace-stieltjes-transform",
+      "kind": "Theorem",
+      "number": "4.4.2"
+    },
+    {
+      "label": "th:generating-function-limit",
+      "kind": "Theorem",
+      "number": "4.4.3"
+    },
+    {
+      "label": "th:good-laurent-series",
+      "kind": "Theorem",
+      "number": "4.4.4"
+    },
+    {
+      "label": "th:matrix-selection-generating",
+      "kind": "Theorem",
+      "number": "4.4.5"
+    },
+    {
+      "label": "th:restricted-path-residue",
+      "kind": "Theorem",
+      "number": "4.4.6"
+    },
+    {
+      "label": "th:bipartite-coloring-residue",
+      "kind": "Theorem",
+      "number": "4.4.7"
+    },
+    {
+      "label": "prob:graph-generalizations",
+      "kind": "Problem",
+      "number": "4.5.1"
+    },
+    {
+      "label": "prob:symmetric-binomial-sum",
+      "kind": "Problem",
+      "number": "4.5.2"
+    },
+    {
+      "label": "prob:rook-symmetry-orbits",
+      "kind": "Problem",
+      "number": "4.5.3"
+    },
+    {
+      "label": "prob:bounded-array-counts",
+      "kind": "Problem",
+      "number": "4.5.4"
+    },
+    {
+      "label": "prob:delannoy-stirling-sum",
+      "kind": "Problem",
+      "number": "4.5.5"
+    },
+    {
+      "label": "prob:ordered-block-arrangements",
+      "kind": "Problem",
+      "number": "4.5.6"
+    },
+    {
+      "label": "prob:binary-staircase-arrays",
+      "kind": "Problem",
+      "number": "4.5.7"
+    },
+    {
+      "label": "prob:selection-and-ordering",
+      "kind": "Problem",
+      "number": "4.5.8"
+    },
+    {
+      "label": "th:dyson-product",
+      "kind": "Theorem",
+      "number": "5.1.1"
+    },
+    {
+      "label": "ex:carlitz-double-coefficients",
+      "kind": "Example",
+      "number": "1"
+    },
+    {
+      "label": "ex:cyclic-binomial-coefficients",
+      "kind": "Example",
+      "number": "2"
+    },
+    {
+      "label": "ex:carlitz-transformation",
+      "kind": "Example",
+      "number": "3"
+    },
+    {
+      "label": "ex:weighted-multinomial-identity",
+      "kind": "Example",
+      "number": "4"
+    },
+    {
+      "label": "ex:bilinear-identity",
+      "kind": "Example",
+      "number": "5"
+    },
+    {
+      "label": "th:linear-constraint-sum",
+      "kind": "Theorem",
+      "number": "5.2.1"
+    },
+    {
+      "label": "th:multivariate-forest-identity",
+      "kind": "Theorem",
+      "number": "5.2.2"
+    },
+    {
+      "label": "th:diagonal-parent-series",
+      "kind": "Theorem",
+      "number": "5.3.1"
+    },
+    {
+      "label": "lem:splitting-differential-form",
+      "kind": "Lemma",
+      "number": "5.4.1"
+    },
+    {
+      "label": "th:splitting-sum-integral",
+      "kind": "Theorem",
+      "number": "5.4.1"
+    },
+    {
+      "label": "th:multivariate-liskovets-system",
+      "kind": "Theorem",
+      "number": "5.5.1"
+    },
+    {
+      "label": "th:lee-binomial-sum",
+      "kind": "Theorem",
+      "number": "5.5.2"
+    },
+    {
+      "label": "prob:carlitz-generating-function",
+      "kind": "Problem",
+      "number": "5.6.1"
+    },
+    {
+      "label": "prob:dixon-factorial-identity",
+      "kind": "Problem",
+      "number": "5.6.2"
+    },
+    {
+      "label": "prob:stirling-log-cancellation",
+      "kind": "Problem",
+      "number": "5.6.3"
+    },
+    {
+      "label": "prob:multivariate-power-difference",
+      "kind": "Problem",
+      "number": "5.6.4"
+    },
+    {
+      "label": "prob:singhal-identities",
+      "kind": "Problem",
+      "number": "5.6.5"
+    },
+    {
+      "label": "prob:binomial-power-expansion",
+      "kind": "Problem",
+      "number": "5.6.6"
+    },
+    {
+      "label": "prob:composition-factorial-sum",
+      "kind": "Problem",
+      "number": "5.6.7"
+    },
+    {
+      "label": "prob:carlitz-composition-identity",
+      "kind": "Problem",
+      "number": "5.6.8"
+    },
+    {
+      "label": "prob:dimension-changing-methods",
+      "kind": "Problem",
+      "number": "5.6.9"
+    },
+    {
+      "label": "prob:chu-dixon-splitting",
+      "kind": "Problem",
+      "number": "5.6.10"
+    },
+    {
+      "label": "prob:rational-antiderivative",
+      "kind": "Problem",
+      "number": "5.6.11"
+    },
+    {
+      "label": "prob:power-difference-identities",
+      "kind": "Problem",
+      "number": "5.6.12"
+    },
+    {
+      "label": "th:szego-reproducing-representation",
+      "kind": "Theorem",
+      "number": "6.1.1"
+    },
+    {
+      "label": "th:szego-general-series",
+      "kind": "Theorem",
+      "number": "6.1.2"
+    },
+    {
+      "label": "lem:beta-block-integral",
+      "kind": "Lemma",
+      "number": "6.1.1"
+    },
+    {
+      "label": "lem:nested-beta-integral",
+      "kind": "Lemma",
+      "number": "6.1.2"
+    },
+    {
+      "label": "lem:logarithmic-block-integral",
+      "kind": "Lemma",
+      "number": "6.1.3"
+    },
+    {
+      "label": "th:nested-exponential-kernel",
+      "kind": "Theorem",
+      "number": "6.1.3"
+    },
+    {
+      "label": "th:bounded-bergman-kernel",
+      "kind": "Theorem",
+      "number": "6.2.1"
+    },
+    {
+      "label": "lem:derived-word-count",
+      "kind": "Lemma",
+      "number": "6.3.1"
+    },
+    {
+      "label": "th:derived-word-residue",
+      "kind": "Theorem",
+      "number": "6.3.1"
+    },
+    {
+      "label": "th:polynilpotent-minimum-weights",
+      "kind": "Theorem",
+      "number": "6.3.2"
+    },
+    {
+      "label": "th:polynilpotent-initial-count",
+      "kind": "Theorem",
+      "number": "6.3.3"
+    },
+    {
+      "label": "lem:power-commutator-collection",
+      "kind": "Lemma",
+      "number": "6.4.1"
+    },
+    {
+      "label": "th:p-central-product-formula",
+      "kind": "Theorem",
+      "number": "6.4.1"
+    },
+    {
+      "label": "lem:hall-power-generators",
+      "kind": "Lemma",
+      "number": "6.4.2"
+    },
+    {
+      "label": "th:p-central-hall-basis",
+      "kind": "Theorem",
+      "number": "6.4.2"
+    },
+    {
+      "label": "th:p-metabelian-rank",
+      "kind": "Theorem",
+      "number": "6.4.3"
+    },
+    {
+      "label": "prob:generalized-series-method",
+      "kind": "Problem",
+      "number": "1"
+    },
+    {
+      "label": "prob:factorial-rational-series",
+      "kind": "Problem",
+      "number": "1.1"
+    },
+    {
+      "label": "prob:q-power-series",
+      "kind": "Problem",
+      "number": "1.2"
+    },
+    {
+      "label": "prob:interpolation-series",
+      "kind": "Problem",
+      "number": "1.3"
+    },
+    {
+      "label": "prob:dirichlet-series",
+      "kind": "Problem",
+      "number": "1.4"
+    },
+    {
+      "label": "prob:fourier-series",
+      "kind": "Problem",
+      "number": "1.5"
+    },
+    {
+      "label": "prob:incidence-algebra-series",
+      "kind": "Problem",
+      "number": "1.6"
+    },
+    {
+      "label": "prob:multivariate-series-method",
+      "kind": "Problem",
+      "number": "2"
+    },
+    {
+      "label": "prob:generalized-generating-series",
+      "kind": "Problem",
+      "number": "3"
+    },
+    {
+      "label": "prob:generalized-identities",
+      "kind": "Problem",
+      "number": "4"
+    },
+    {
+      "label": "prob:generalized-matrix-inversion",
+      "kind": "Problem",
+      "number": "5"
+    },
+    {
+      "label": "prob:closed-form-sum-classification",
+      "kind": "Problem",
+      "number": "6"
+    },
+    {
+      "label": "prob:regular-summation-methods",
+      "kind": "Problem",
+      "number": "7"
+    },
+    {
+      "label": "prob:multivariate-summation-kernel",
+      "kind": "Problem",
+      "number": "8"
+    },
+    {
+      "label": "prob:probability-kernels",
+      "kind": "Problem",
+      "number": "8.1"
+    },
+    {
+      "label": "prob:distribution-moments",
+      "kind": "Problem",
+      "number": "8.2"
+    },
+    {
+      "label": "prob:generalized-moment-methods",
+      "kind": "Problem",
+      "number": "9"
+    },
+    {
+      "label": "prob:fourier-summation-kernels",
+      "kind": "Problem",
+      "number": "10"
+    },
+    {
+      "label": "prob:closed-form-szego-kernels",
+      "kind": "Problem",
+      "number": "11"
+    },
+    {
+      "label": "prob:rational-szego-kernels",
+      "kind": "Problem",
+      "number": "12"
+    },
+    {
+      "label": "remark:global-parametrization",
+      "kind": "Remark",
+      "number": "1"
+    },
+    {
+      "label": "th:pullback-integral",
+      "kind": "Theorem",
+      "number": "1"
+    },
+    {
+      "label": "cor:diffeomorphism-integral",
+      "kind": "Corollary",
+      "number": "2"
+    },
+    {
+      "label": "remark:noninvertible-change-of-variables",
+      "kind": "Remark",
+      "number": "2"
+    },
+    {
+      "label": "th:stokes-formula",
+      "kind": "Theorem",
+      "number": "3"
+    },
+    {
+      "label": "cor:exact-form-periods",
+      "kind": "Corollary",
+      "number": "4"
+    },
+    {
+      "label": "cor:null-homologous-periods",
+      "kind": "Corollary",
+      "number": "5"
+    },
+    {
+      "label": "cor:homology-cohomology-pairing",
+      "kind": "Corollary",
+      "number": "6"
+    },
+    {
+      "label": "cor:holomorphic-boundary-integral",
+      "kind": "Corollary",
+      "number": "7"
+    },
+    {
+      "label": "th:cauchy-poincare",
+      "kind": "Theorem",
+      "number": "8"
+    },
+    {
+      "label": "prop:form-integration-by-parts",
+      "kind": "Proposition",
+      "number": "9"
+    },
+    {
+      "label": "prop:integration-by-parts",
+      "kind": "Proposition",
+      "number": "10"
+    },
+    {
+      "label": "prop:homology-periods",
+      "kind": "Proposition",
+      "number": "1"
+    },
+    {
+      "label": "th:alexander-pontryagin-duality",
+      "kind": "Theorem",
+      "number": "2"
+    },
+    {
+      "label": "th:complementary-domain-periods",
+      "kind": "Theorem",
+      "number": "3"
+    },
+    {
+      "label": "ex:plane-binomial-curve",
+      "kind": "Example",
+      "number": "1"
+    },
+    {
+      "label": "ex:hyperbola-complement",
+      "kind": "Example",
+      "number": "2"
+    },
+    {
+      "label": "th:derham-duality",
+      "kind": "Theorem",
+      "number": "4"
+    },
+    {
+      "label": "cor:homology-detection",
+      "kind": "Corollary",
+      "number": "5"
+    },
+    {
+      "label": "cor:exactness-detection",
+      "kind": "Corollary",
+      "number": "6"
+    },
+    {
+      "label": "cor:dual-homology-bases",
+      "kind": "Corollary",
+      "number": "7"
+    },
+    {
+      "label": "th:period-decomposition",
+      "kind": "Theorem",
+      "number": "8"
+    },
+    {
+      "label": "th:stein-holomorphic-cohomology",
+      "kind": "Theorem",
+      "number": "9"
+    },
+    {
+      "label": "cor:stein-cohomology-vanishing",
+      "kind": "Corollary",
+      "number": "10"
+    },
+    {
+      "label": "ex:coordinate-torus-cohomology",
+      "kind": "Example",
+      "number": "3"
+    },
+    {
+      "label": "th:leray-residue",
+      "kind": "Theorem",
+      "number": "11"
+    },
+    {
+      "label": "th:simple-pole-representative",
+      "kind": "Theorem",
+      "number": "12"
+    },
+    {
+      "label": "th:froissart-decomposition",
+      "kind": "Theorem",
+      "number": "13"
+    },
+    {
+      "label": "prop:shifted-holomorphic-map",
+      "kind": "Proposition",
+      "number": "1"
+    },
+    {
+      "label": "th:zero-count-boundary",
+      "kind": "Theorem",
+      "number": "2"
+    },
+    {
+      "label": "th:rouche-bound",
+      "kind": "Theorem",
+      "number": "3"
+    },
+    {
+      "label": "lem:zero-count-localization",
+      "kind": "Lemma",
+      "number": "1"
+    },
+    {
+      "label": "lem:simple-zero-count",
+      "kind": "Lemma",
+      "number": "2"
+    },
+    {
+      "label": "lem:rouche-integral-invariance",
+      "kind": "Lemma",
+      "number": "3"
+    },
+    {
+      "label": "remark:simple-zero-multiplicity",
+      "kind": "Remark",
+      "number": "1"
+    },
+    {
+      "label": "th:weighted-zero-count",
+      "kind": "Theorem",
+      "number": "4"
+    },
+    {
+      "label": "th:logarithmic-residue-count",
+      "kind": "Theorem",
+      "number": "5"
+    },
+    {
+      "label": "th:logarithmic-torus-count",
+      "kind": "Theorem",
+      "number": "6"
+    },
+    {
+      "label": "th:logarithmic-weighted-count",
+      "kind": "Theorem",
+      "number": "7"
+    },
+    {
+      "label": "th:torus-perturbed-map",
+      "kind": "Theorem",
+      "number": "8"
+    },
+    {
+      "label": "lem:local-polyhedron-excision",
+      "kind": "Lemma",
+      "number": "4"
+    },
+    {
+      "label": "th:implicit-cauchy-integral",
+      "kind": "Theorem",
+      "number": "1"
+    },
+    {
+      "label": "th:implicit-series",
+      "kind": "Theorem",
+      "number": "2"
+    },
+    {
+      "label": "remark:implicit-shift-choice",
+      "kind": "Remark",
+      "number": "1"
+    },
+    {
+      "label": "th:implicit-taylor-series",
+      "kind": "Theorem",
+      "number": "3"
+    },
+    {
+      "label": "remark:univariate-implicit-simplification",
+      "kind": "Remark",
+      "number": "2"
+    },
+    {
+      "label": "prop:implicit-series-univariate",
+      "kind": "Proposition",
+      "number": "4"
+    },
+    {
+      "label": "th:inverse-map-series",
+      "kind": "Theorem",
+      "number": "5"
+    },
+    {
+      "label": "cor:inverse-map-components",
+      "kind": "Corollary",
+      "number": "6"
+    },
+    {
+      "label": "th:multiplicative-map",
+      "kind": "Theorem",
+      "number": "7"
+    },
+    {
+      "label": "th:implicit-combinatorial-coefficients",
+      "kind": "Theorem",
+      "number": "8"
+    },
+    {
+      "label": "remark:implicit-component-constraints",
+      "kind": "Remark",
+      "number": "3"
+    },
+    {
+      "label": "th:inverse-combinatorial-coefficients",
+      "kind": "Theorem",
+      "number": "9"
+    },
+    {
+      "label": "remark:formal-inverse-components",
+      "kind": "Remark",
+      "number": "4"
+    },
+    {
+      "label": "th:branched-solution",
+      "kind": "Theorem",
+      "number": "10"
+    },
+    {
+      "label": "cor:regular-branch-series",
+      "kind": "Corollary",
+      "number": "11"
+    },
+    {
+      "label": "cor:univariate-regular-branch",
+      "kind": "Corollary",
+      "number": "12"
+    },
+    {
+      "label": "ex:implicit-binomial-example",
+      "kind": "Example",
+      "number": "1"
+    },
+    {
+      "label": "ex:cubic-branch-example",
+      "kind": "Example",
+      "number": "2"
+    }
+  ],
+  "equations": {
+    "eq:initial-integrals": [
+      "1"
+    ],
+    "eq:moriarty-decomposition": [
+      "2"
+    ],
+    "eq:moriarty-factor-integrals": [
+      "3"
+    ],
+    "eq:moriarty-double-integral": [
+      "4"
+    ],
+    "eq:moriarty-geometric-series": [
+      "5"
+    ],
+    "eq:moriarty-rational-integrand": [
+      "6"
+    ],
+    "eq:moriarty-residue-evaluation": [
+      "7"
+    ],
+    "eq:moriarty-identity": [
+      "8"
+    ],
+    "eq:generating-series": [
+      "1.1"
+    ],
+    "eq:formal-residue": [
+      "1.2"
+    ],
+    "eq:residue-coefficient": [
+      "1.3"
+    ],
+    "eq:series-equality": [
+      "1.4"
+    ],
+    "eq:residue-linearity": [
+      "1.5"
+    ],
+    "eq:residue-substitution": [
+      "1.6"
+    ],
+    "eq:lagrange-summation": [
+      "1.7"
+    ],
+    "eq:formal-inverse": [
+      "*"
+    ],
+    "eq:residue-change-variables": [
+      "1.8"
+    ],
+    "eq:residue-dimension-increase": [
+      "1.9"
+    ],
+    "eq:inverse-substitution": [
+      "1.10"
+    ],
+    "eq:residue-differentiation": [
+      "1.11"
+    ],
+    "eq:residue-integration": [
+      "1.12"
+    ],
+    "eq:series-equality-univariate": [
+      "1.4′"
+    ],
+    "eq:residue-linearity-univariate": [
+      "1.5′"
+    ],
+    "eq:residue-substitution-univariate": [
+      "1.6′"
+    ],
+    "eq:lagrange-summation-univariate": [
+      "1.7′"
+    ],
+    "eq:residue-change-variables-univariate": [
+      "1.8′"
+    ],
+    "eq:inverse-substitution-univariate": [
+      "1.10′"
+    ],
+    "eq:residue-differentiation-univariate": [
+      "1.11′"
+    ],
+    "eq:residue-integration-univariate": [
+      "1.12′"
+    ],
+    "eq:truncated-change-variables": [
+      "1.13"
+    ],
+    "eq:cauchy-coefficient": [
+      "1.14"
+    ],
+    "eq:cauchy-series-substitution": [
+      "1.15"
+    ],
+    "eq:coefficient-majorant": [
+      "1.16"
+    ],
+    "eq:residue-series-coefficients": [
+      "1.17"
+    ],
+    "eq:generating-integral": [
+      "1.18"
+    ],
+    "eq:simple-root-evaluation": [
+      "1.19"
+    ],
+    "eq:macmahon-series": [
+      "1.20"
+    ],
+    "eq:macmahon-theorem": [
+      "1.21"
+    ],
+    "eq:macmahon-determinant": [
+      "1.22"
+    ],
+    "eq:root-sum-evaluation": [
+      "1.23"
+    ],
+    "eq:root-system": [
+      "1.24"
+    ],
+    "eq:root-radius-bound": [
+      "1.25"
+    ],
+    "eq:root-factorization": [
+      "1.26"
+    ],
+    "eq:root-localization": [
+      "1.27"
+    ],
+    "eq:contour-deformation": [
+      "1.28"
+    ],
+    "eq:local-change-variables": [
+      "1.29"
+    ],
+    "eq:partial-fractions-integral": [
+      "1.30"
+    ],
+    "eq:explicit-root-sum": [
+      "1.31"
+    ],
+    "eq:alternating-binomial-sum": [
+      "1.32"
+    ],
+    "eq:binomial-decomposition": [
+      "1.33"
+    ],
+    "eq:binomial-two-integrals": [
+      "1.34"
+    ],
+    "eq:binomial-single-integral": [
+      "1.35"
+    ],
+    "eq:alternating-sum-integral": [
+      "1.36"
+    ],
+    "eq:alternating-sum-values": [
+      "1.37"
+    ],
+    "eq:binomial-symmetries": [
+      "1.38"
+    ],
+    "eq:binomial-contour-choices": [
+      "1.39"
+    ],
+    "eq:parity-sum": [
+      "1.40"
+    ],
+    "eq:parity-sum-residue": [
+      "1.41"
+    ],
+    "eq:parity-sum-value": [
+      "1.42"
+    ],
+    "eq:carlitz-multivariate-identity": [
+      "1.43"
+    ],
+    "eq:carlitz-coefficient-residue": [
+      "1.44"
+    ],
+    "eq:carlitz-determinant": [
+      "1.45"
+    ],
+    "eq:carlitz-determinant-value": [
+      "1.46"
+    ],
+    "eq:bergman-domain": [
+      "1.47"
+    ],
+    "eq:bergman-series": [
+      "1.48"
+    ],
+    "eq:bergman-integral": [
+      "1.49"
+    ],
+    "eq:bergman-closed-form": [
+      "1.50"
+    ],
+    "eq:bergman-multinomial-series": [
+      "1.51"
+    ],
+    "eq:bergman-coefficient-integrals": [
+      "1.52"
+    ],
+    "eq:bergman-summed-integral": [
+      "1.53"
+    ],
+    "eq:bergman-substitution": [
+      "1.54"
+    ],
+    "eq:bergman-final-residue": [
+      "1.55"
+    ],
+    "eq:product-coefficients": [
+      "1.56"
+    ],
+    "eq:reciprocal-coefficients": [
+      "1.57"
+    ],
+    "eq:composition-coefficients": [
+      "1.58"
+    ],
+    "eq:inverse-coefficients": [
+      "1.59"
+    ],
+    "eq:linear-recurrence": [
+      "1.60"
+    ],
+    "eq:recurrence-initial-data": [
+      "1.61"
+    ],
+    "eq:recurrence-coefficient": [
+      "1.62"
+    ],
+    "eq:recurrence-residue": [
+      "1.63"
+    ],
+    "eq:recurrence-generating-function": [
+      "1.64"
+    ],
+    "eq:recurrence-solution": [
+      "1.65"
+    ],
+    "eq:truncation-coefficient": [
+      "*"
+    ],
+    "eq:truncation-equality": [
+      "**"
+    ],
+    "eq:coefficient-notation": [
+      "1.66"
+    ],
+    "eq:schwatt-convolution": [
+      "1.67"
+    ],
+    "eq:schwatt-geometric-sum": [
+      "1.68"
+    ],
+    "eq:alternating-partial-binomial": [
+      "2.1"
+    ],
+    "eq:finite-difference-powers": [
+      "2.2"
+    ],
+    "eq:catalan-ratio-bound": [
+      "2.3"
+    ],
+    "eq:catalan-ratio": [
+      "2.4"
+    ],
+    "eq:catalan-ratio-value": [
+      "2.5"
+    ],
+    "eq:catalan-convolution": [
+      "2.6"
+    ],
+    "eq:central-binomial-reciprocal": [
+      "2.7"
+    ],
+    "eq:binomial-product-transformation": [
+      "2.8"
+    ],
+    "eq:abel-identity": [
+      "2.9"
+    ],
+    "eq:hagen-rothe-identity": [
+      "2.10"
+    ],
+    "eq:rising-factorial-convolution": [
+      "2.11"
+    ],
+    "eq:rising-factorial-polynomial": [
+      "2.12"
+    ],
+    "eq:abel-convolution": [
+      "2.13"
+    ],
+    "eq:gould-polynomial-convolution": [
+      "2.14"
+    ],
+    "eq:stirling-bernoulli-identity": [
+      "2.15"
+    ],
+    "eq:squared-binomial-sum": [
+      "2.16"
+    ],
+    "eq:squared-binomial-value": [
+      "2.17"
+    ],
+    "eq:davis-identities": [
+      "2.18"
+    ],
+    "eq:cosine-sum-symmetry": [
+      "2.19"
+    ],
+    "eq:cosine-full-sum": [
+      "2.20"
+    ],
+    "eq:cosine-partial-sum": [
+      "2.21"
+    ],
+    "eq:stechkin-multiple-sum": [
+      "2.22"
+    ],
+    "eq:stechkin-double-sum": [
+      "2.23"
+    ],
+    "eq:stechkin-alternating-sum": [
+      "2.24"
+    ],
+    "eq:harmonic-binomial-sum": [
+      "2.25"
+    ],
+    "eq:harmonic-binomial-value": [
+      "2.26"
+    ],
+    "eq:stirling-multiple-sum": [
+      "2.27"
+    ],
+    "eq:stirling-cancellation": [
+      "2.28"
+    ],
+    "eq:stirling-weighted-sum": [
+      "2.29"
+    ],
+    "eq:predicate-count-generating": [
+      "2.30"
+    ],
+    "eq:predicate-equivalence-count": [
+      "2.31"
+    ],
+    "eq:partition-subgroup-count": [
+      "2.32"
+    ],
+    "eq:partition-refinement-count": [
+      "2.33"
+    ],
+    "eq:partition-index-constraints": [
+      "2.34"
+    ],
+    "eq:partition-refinement-sum": [
+      "2.35"
+    ],
+    "eq:partition-refinement-value": [
+      "2.36"
+    ],
+    "eq:binomial-parameter-sum": [
+      "2.37"
+    ],
+    "eq:binomial-finite-integral": [
+      "2.38"
+    ],
+    "eq:binomial-infinite-integral": [
+      "2.39"
+    ],
+    "eq:binomial-contour-bound": [
+      "2.40"
+    ],
+    "eq:cubic-root-filter": [
+      "2.41"
+    ],
+    "eq:binomial-product-sum": [
+      "2.42"
+    ],
+    "eq:binomial-product-finite-integral": [
+      "2.43"
+    ],
+    "eq:binomial-product-infinite-integral": [
+      "2.44"
+    ],
+    "eq:binomial-product-contour-bound": [
+      "2.45"
+    ],
+    "eq:saddle-equation": [
+      "2.46"
+    ],
+    "eq:saddle-integral": [
+      "2.47"
+    ],
+    "eq:saddle-estimate": [
+      "2.48"
+    ],
+    "eq:binomial-tail": [
+      "2.49"
+    ],
+    "eq:normal-tail-estimate": [
+      "2.50"
+    ],
+    "eq:gauss-series": [
+      "2.51"
+    ],
+    "eq:euler-integral": [
+      "2.52"
+    ],
+    "eq:gauss-summation": [
+      "2.53"
+    ],
+    "eq:euler-transformation": [
+      "2.54"
+    ],
+    "eq:hypergeometric-series": [
+      "2.55"
+    ],
+    "eq:bilateral-hypergeometric-series": [
+      "2.56"
+    ],
+    "eq:basic-hypergeometric-series": [
+      "2.57"
+    ],
+    "eq:bilateral-basic-series": [
+      "2.58"
+    ],
+    "eq:alternating-factorial-sum": [
+      "2.59"
+    ],
+    "eq:binomial-ratio-sum": [
+      "2.60"
+    ],
+    "eq:binomial-ratio-tail": [
+      "2.61"
+    ],
+    "eq:binomial-ratio-partial-sum": [
+      "2.62"
+    ],
+    "eq:saalschutz-summation": [
+      "2.63"
+    ],
+    "eq:kummer-transformation": [
+      "2.64"
+    ],
+    "eq:kummer-summation": [
+      "2.65"
+    ],
+    "eq:kummer-terminating-sum": [
+      "2.66"
+    ],
+    "eq:dougall-summation": [
+      "2.67"
+    ],
+    "eq:andrews-sum-value": [
+      "2.68"
+    ],
+    "eq:factorial-multiplication": [
+      "2.69"
+    ],
+    "eq:factorial-reflection": [
+      "2.70"
+    ],
+    "eq:q-factorial-multiplication": [
+      "2.71"
+    ],
+    "eq:q-factorial-reflection": [
+      "2.72"
+    ],
+    "eq:moriarty-odd": [
+      "2.73"
+    ],
+    "eq:moriarty-even": [
+      "2.74"
+    ],
+    "eq:q-moriarty-odd": [
+      "2.75"
+    ],
+    "eq:q-moriarty-even": [
+      "2.76"
+    ],
+    "eq:dawson-identity": [
+      "2.77"
+    ],
+    "eq:dawson-hypergeometric": [
+      "2.78"
+    ],
+    "eq:q-gauss-summation": [
+      "2.79"
+    ],
+    "eq:q-dawson-identity": [
+      "2.80"
+    ],
+    "eq:matrix-transform": [
+      "*"
+    ],
+    "eq:inverse-matrix-pair": [
+      "3.1"
+    ],
+    "eq:transposed-inverse-pair": [
+      "3.2"
+    ],
+    "eq:matrix-integral": [
+      "3.3"
+    ],
+    "eq:matrix-nondegeneracy": [
+      "3.4"
+    ],
+    "eq:triangular-matrix-integral": [
+      "3.5"
+    ],
+    "eq:matrix-generating-relation": [
+      "3.6"
+    ],
+    "eq:inverse-matrix-implicit-integral": [
+      "3.7"
+    ],
+    "eq:inverse-matrix-integral": [
+      "3.8"
+    ],
+    "eq:matrix-factorization": [
+      "3.9"
+    ],
+    "eq:liskovets-system": [
+      "3.10"
+    ],
+    "eq:liskovets-solution": [
+      "3.11"
+    ],
+    "eq:liskovets-identity": [
+      "3.12"
+    ],
+    "eq:liskovets-normalization": [
+      "3.13"
+    ],
+    "eq:liskovets-normalized-system": [
+      "3.14"
+    ],
+    "eq:liskovets-inversion": [
+      "3.15"
+    ],
+    "eq:liskovets-residue": [
+      "3.16"
+    ],
+    "eq:binomial-inverse-pair": [
+      "3.17"
+    ],
+    "eq:shifted-binomial-inverse-pair": [
+      "3.18"
+    ],
+    "eq:weighted-binomial-inverse-pair": [
+      "3.19"
+    ],
+    "eq:lacunary-inverse-pair": [
+      "3.20"
+    ],
+    "eq:row-binomial-inverse-pair": [
+      "3.21"
+    ],
+    "eq:column-binomial-inverse-pair": [
+      "3.22"
+    ],
+    "eq:abel-inverse-pair": [
+      "3.23"
+    ],
+    "eq:abel-convolution-inverse-pair": [
+      "3.24"
+    ],
+    "eq:bernoulli-inverse-pair": [
+      "3.25"
+    ],
+    "eq:binomial-functional-pair": [
+      "3.26"
+    ],
+    "eq:shifted-binomial-functional-pair": [
+      "3.27"
+    ],
+    "eq:weighted-binomial-functional-pair": [
+      "3.28"
+    ],
+    "eq:lacunary-functional-pair": [
+      "3.29"
+    ],
+    "eq:row-binomial-functional-pair": [
+      "3.30"
+    ],
+    "eq:column-binomial-functional-pair": [
+      "3.31"
+    ],
+    "eq:abel-functional-pair": [
+      "3.32"
+    ],
+    "eq:abel-convolution-functional-pair": [
+      "3.33"
+    ],
+    "eq:bernoulli-functional-pair": [
+      "3.34"
+    ],
+    "eq:univariate-row-inversion": [
+      "3.35"
+    ],
+    "eq:multinomial-row-inversion": [
+      "3.36"
+    ],
+    "eq:product-row-inversion": [
+      "3.37"
+    ],
+    "eq:univariate-row-functional": [
+      "3.38"
+    ],
+    "eq:multinomial-row-functional": [
+      "3.39"
+    ],
+    "eq:product-row-functional": [
+      "3.40"
+    ],
+    "eq:multinomial-column-inversion": [
+      "3.41"
+    ],
+    "eq:product-column-inversion": [
+      "3.42"
+    ],
+    "eq:multinomial-column-functional": [
+      "3.43"
+    ],
+    "eq:product-column-functional": [
+      "3.44"
+    ],
+    "eq:univariate-convolution-inversion": [
+      "3.45"
+    ],
+    "eq:product-convolution-inversion": [
+      "3.46"
+    ],
+    "eq:stirling-basis-change": [
+      "4.1"
+    ],
+    "eq:stirling-tree-identity": [
+      "4.2"
+    ],
+    "eq:stirling-two-batches": [
+      "4.3"
+    ],
+    "eq:stirling-multiple-batches": [
+      "4.4"
+    ],
+    "eq:stirling-batch-residue": [
+      "4.5"
+    ],
+    "eq:stirling-batch-sum": [
+      "4.6"
+    ],
+    "eq:stirling-batch-value": [
+      "4.7"
+    ],
+    "eq:rooted-tree-convolution": [
+      "4.8"
+    ],
+    "eq:hypertree-convolution": [
+      "4.9"
+    ],
+    "eq:hypertree-count": [
+      "4.10"
+    ],
+    "eq:hypertree-recurrence": [
+      "4.11"
+    ],
+    "eq:hypertree-residue": [
+      "4.12"
+    ],
+    "eq:tournament-sum": [
+      "4.13"
+    ],
+    "eq:tournament-generating-function": [
+      "4.14"
+    ],
+    "eq:tournament-closed-form": [
+      "4.15"
+    ],
+    "eq:tournament-floor-form": [
+      "4.16"
+    ],
+    "eq:tournament-recurrence": [
+      "4.17"
+    ],
+    "eq:tournament-identity": [
+      "4.18"
+    ],
+    "eq:tournament-double-residue": [
+      "4.19"
+    ],
+    "eq:tournament-integral": [
+      "4.20"
+    ],
+    "eq:solvable-third-rank": [
+      "4.21"
+    ],
+    "eq:metabelian-rank-count": [
+      "4.22"
+    ],
+    "eq:solvable-second-component": [
+      "4.23"
+    ],
+    "eq:solvable-partition-function": [
+      "4.24"
+    ],
+    "eq:solvable-third-rank-residue": [
+      "4.25"
+    ],
+    "eq:solvable-third-generating-function": [
+      "4.26"
+    ],
+    "eq:metabelian-generating-residue": [
+      "4.27"
+    ],
+    "eq:solvable-partition-residue": [
+      "4.28"
+    ],
+    "eq:solvable-convolution-reduction": [
+      "4.29"
+    ],
+    "eq:solvable-component-decomposition": [
+      "4.30"
+    ],
+    "eq:chess-rook-integral": [
+      "4.31"
+    ],
+    "eq:chess-permutation-count": [
+      "4.32"
+    ],
+    "eq:darboux-local-expansion": [
+      "4.33"
+    ],
+    "eq:darboux-coefficient-expansion": [
+      "4.34"
+    ],
+    "eq:laplace-stieltjes-transform": [
+      "4.35"
+    ],
+    "eq:laplace-leading-term": [
+      "4.36"
+    ],
+    "eq:laplace-remainder-bound": [
+      "4.37"
+    ],
+    "eq:tauberian-integrated-asymptotic": [
+      "4.38"
+    ],
+    "eq:tauberian-remainder-bound": [
+      "4.39"
+    ],
+    "eq:generating-function-limit": [
+      "4.40"
+    ],
+    "eq:tauberian-difference-bound": [
+      "4.41"
+    ],
+    "eq:tauberian-coefficient-limit": [
+      "4.42"
+    ],
+    "eq:quantitative-generating-estimate": [
+      "4.43"
+    ],
+    "eq:quantitative-coefficient-sum": [
+      "4.44"
+    ],
+    "eq:good-laurent-series": [
+      "4.45"
+    ],
+    "eq:good-power-coefficient": [
+      "4.46"
+    ],
+    "eq:good-ratio-bound": [
+      "4.47"
+    ],
+    "eq:good-sign-condition": [
+      "4.48"
+    ],
+    "eq:good-coefficient-positivity": [
+      "4.49"
+    ],
+    "eq:good-saddle-system": [
+      "4.50"
+    ],
+    "eq:good-asymptotic": [
+      "4.51"
+    ],
+    "eq:good-hessian-determinant": [
+      "4.52"
+    ],
+    "eq:good-logarithmic-hessian": [
+      "4.53"
+    ],
+    "eq:good-exponential-hessian": [
+      "4.54"
+    ],
+    "eq:matrix-selection-generating": [
+      "4.55"
+    ],
+    "eq:matrix-selection-asymptotic": [
+      "4.56"
+    ],
+    "eq:matrix-selection-exact-count": [
+      "4.57"
+    ],
+    "eq:restricted-path-residue": [
+      "4.58"
+    ],
+    "eq:path-parity-sequences": [
+      "4.59"
+    ],
+    "eq:restricted-path-asymptotic": [
+      "4.60"
+    ],
+    "eq:path-decomposition": [
+      "4.61"
+    ],
+    "eq:delannoy-multinomial-sum": [
+      "4.62"
+    ],
+    "eq:schroder-sum": [
+      "4.63"
+    ],
+    "eq:schroder-generating-residue": [
+      "4.64"
+    ],
+    "eq:delannoy-binomial-sum": [
+      "4.65"
+    ],
+    "eq:delannoy-extended-sum": [
+      "4.66"
+    ],
+    "eq:delannoy-first-residue": [
+      "4.67"
+    ],
+    "eq:delannoy-symmetric-residue": [
+      "4.68"
+    ],
+    "eq:diagonal-path-sum": [
+      "4.69"
+    ],
+    "eq:diagonal-path-generating-integral": [
+      "4.70"
+    ],
+    "eq:diagonal-path-generating-function": [
+      "4.71"
+    ],
+    "eq:diagonal-path-residue": [
+      "4.72"
+    ],
+    "eq:excluded-path-convolution": [
+      "4.73"
+    ],
+    "eq:excluded-path-generating-function": [
+      "4.74"
+    ],
+    "eq:excluded-path-residue": [
+      "4.75"
+    ],
+    "eq:restricted-path-leading-term": [
+      "4.76"
+    ],
+    "eq:delannoy-leading-term": [
+      "4.77"
+    ],
+    "eq:bipartite-coloring-residue": [
+      "4.78"
+    ],
+    "eq:bipartite-coloring-generating": [
+      "4.79"
+    ],
+    "eq:bipartite-coloring-asymptotic": [
+      "4.80"
+    ],
+    "eq:bipartite-density-regime": [
+      "4.81"
+    ],
+    "eq:bipartite-saddle-system": [
+      "4.82"
+    ],
+    "eq:bipartite-cumulants": [
+      "4.83"
+    ],
+    "eq:bipartite-coloring-exact-count": [
+      "4.84"
+    ],
+    "eq:dixon-cubic-sum": [
+      "5.1"
+    ],
+    "eq:dixon-triple-residue": [
+      "5.2"
+    ],
+    "eq:dixon-rational-residue": [
+      "5.3"
+    ],
+    "eq:dixon-identity": [
+      "5.4"
+    ],
+    "eq:dyson-product": [
+      "5.5"
+    ],
+    "eq:dyson-constant-term": [
+      "5.6"
+    ],
+    "eq:dixon-general-identity": [
+      "5.7"
+    ],
+    "eq:dyson-generating-integral": [
+      "5.8"
+    ],
+    "eq:dyson-convergence-bound": [
+      "5.9"
+    ],
+    "eq:dyson-cleared-integral": [
+      "5.10"
+    ],
+    "eq:dyson-vandermonde-integral": [
+      "5.11"
+    ],
+    "eq:vandermonde-identities": [
+      "5.12"
+    ],
+    "eq:dyson-root-system": [
+      "5.13"
+    ],
+    "eq:dyson-substitution": [
+      "5.14"
+    ],
+    "eq:dyson-implicit-system": [
+      "5.15"
+    ],
+    "eq:dyson-covering-integral": [
+      "5.16"
+    ],
+    "eq:dyson-linear-integral": [
+      "5.17"
+    ],
+    "eq:dyson-linear-substitution": [
+      "5.18"
+    ],
+    "eq:dyson-generating-function": [
+      "5.19"
+    ],
+    "eq:carlitz-double-coefficients": [
+      "5.20"
+    ],
+    "eq:carlitz-double-integral": [
+      "5.21"
+    ],
+    "eq:carlitz-double-substitution": [
+      "5.22"
+    ],
+    "eq:carlitz-double-generating-function": [
+      "5.23"
+    ],
+    "eq:cyclic-binomial-coefficients": [
+      "5.24"
+    ],
+    "eq:cyclic-binomial-integral": [
+      "5.25"
+    ],
+    "eq:cyclic-binomial-generating-integral": [
+      "5.26"
+    ],
+    "eq:cyclic-binomial-jacobian": [
+      "5.27"
+    ],
+    "eq:cyclic-binomial-closed-form": [
+      "5.28"
+    ],
+    "eq:carlitz-transformation": [
+      "5.29"
+    ],
+    "eq:carlitz-common-generating-function": [
+      "5.30"
+    ],
+    "eq:weighted-multinomial-identity": [
+      "5.31"
+    ],
+    "eq:weighted-reversed-sum": [
+      "5.32"
+    ],
+    "eq:weighted-factorization": [
+      "*"
+    ],
+    "eq:weighted-integral-value": [
+      "5.33"
+    ],
+    "eq:bilinear-identity": [
+      "5.34"
+    ],
+    "eq:bilinear-first-sum": [
+      "5.35"
+    ],
+    "eq:bilinear-second-sum": [
+      "5.36"
+    ],
+    "eq:bilinear-integral": [
+      "5.37"
+    ],
+    "eq:linear-constraint-sum": [
+      "5.38"
+    ],
+    "eq:linear-constraint-generating-function": [
+      "5.39"
+    ],
+    "eq:linear-index-set": [
+      "5.40"
+    ],
+    "eq:power-root-sum": [
+      "5.41"
+    ],
+    "eq:negative-binomial-log-sum": [
+      "5.42"
+    ],
+    "eq:binomial-log-sum": [
+      "5.43"
+    ],
+    "eq:exponential-log-sum": [
+      "5.44"
+    ],
+    "eq:secant-log-sum": [
+      "5.45"
+    ],
+    "eq:inverse-sine-log-sum": [
+      "5.46"
+    ],
+    "eq:cosine-log-sum": [
+      "5.47"
+    ],
+    "eq:composition-log-sum": [
+      "5.48"
+    ],
+    "eq:multivariate-forest-identity": [
+      "5.49"
+    ],
+    "eq:rooted-forest-identity": [
+      "5.50"
+    ],
+    "eq:rooted-tree-equation": [
+      "*"
+    ],
+    "eq:exact-linear-constraint-sum": [
+      "5.51"
+    ],
+    "eq:logarithmic-multiple-integral": [
+      "5.52"
+    ],
+    "eq:logarithmic-reduced-integral": [
+      "5.53"
+    ],
+    "eq:linear-constraint-logarithm": [
+      "5.54"
+    ],
+    "eq:polynomial-log-coefficient": [
+      "5.55"
+    ],
+    "eq:rooted-forest-sum": [
+      "5.56"
+    ],
+    "eq:rooted-forest-generating-function": [
+      "5.57"
+    ],
+    "eq:rooted-tree-series": [
+      "5.58"
+    ],
+    "eq:split-parameter-restriction": [
+      "5.59"
+    ],
+    "eq:split-generating-function": [
+      "5.60"
+    ],
+    "eq:split-alternative-generating-function": [
+      "5.61"
+    ],
+    "eq:split-coefficient-identity": [
+      "5.62"
+    ],
+    "eq:split-restricted-identity": [
+      "5.63"
+    ],
+    "eq:cubic-binomial-sum": [
+      "5.64"
+    ],
+    "eq:cubic-binomial-extension": [
+      "5.65"
+    ],
+    "eq:cubic-binomial-diagonal": [
+      "5.66"
+    ],
+    "eq:cubic-binomial-factor-integrals": [
+      "5.67"
+    ],
+    "eq:cubic-binomial-summed-integral": [
+      "5.68"
+    ],
+    "eq:cubic-binomial-extended-integral": [
+      "5.69"
+    ],
+    "eq:cubic-binomial-value": [
+      "5.70"
+    ],
+    "eq:carlitz-product-identity": [
+      "5.71"
+    ],
+    "eq:cubic-binomial-diagonal-value": [
+      "5.72"
+    ],
+    "eq:diagonal-parent-series": [
+      "5.73"
+    ],
+    "eq:diagonal-restricted-series": [
+      "5.74"
+    ],
+    "eq:diagonal-coefficient-restriction": [
+      "5.75"
+    ],
+    "eq:diagonal-integral": [
+      "5.76"
+    ],
+    "eq:diagonal-reduced-integral": [
+      "5.77"
+    ],
+    "eq:diagonal-integral-derivation": [
+      "5.78"
+    ],
+    "eq:splitting-differential-form": [
+      "5.79"
+    ],
+    "eq:splitting-one-parameter": [
+      "5.80"
+    ],
+    "eq:splitting-factor-powers": [
+      "5.81"
+    ],
+    "eq:splitting-exchanged-powers": [
+      "5.82"
+    ],
+    "eq:splitting-multiple-coefficients": [
+      "5.83"
+    ],
+    "eq:splitting-repeated-factors": [
+      "5.84"
+    ],
+    "eq:splitting-contour-bounds": [
+      "5.85"
+    ],
+    "eq:splitting-two-factors": [
+      "5.86"
+    ],
+    "eq:splitting-double-integral": [
+      "5.87"
+    ],
+    "eq:splitting-zero-coefficient": [
+      "5.88"
+    ],
+    "eq:splitting-zero-parameter": [
+      "5.89"
+    ],
+    "eq:splitting-zero-multiple-parameters": [
+      "5.90"
+    ],
+    "eq:splitting-power-factorization": [
+      "5.91"
+    ],
+    "eq:splitting-sum-integral": [
+      "5.92"
+    ],
+    "eq:splitting-exchanged-integral": [
+      "5.93"
+    ],
+    "eq:splitting-simple-root-sum": [
+      "5.94"
+    ],
+    "eq:splitting-simple-root-system": [
+      "5.95"
+    ],
+    "eq:splitting-powered-root-sum": [
+      "5.96"
+    ],
+    "eq:splitting-powered-root-system": [
+      "5.97"
+    ],
+    "eq:splitting-exchanged-root-sum": [
+      "5.98"
+    ],
+    "eq:splitting-exchanged-root-system": [
+      "5.99"
+    ],
+    "eq:splitting-global-residue": [
+      "5.100"
+    ],
+    "eq:weighted-cubic-binomial-sum": [
+      "5.101"
+    ],
+    "eq:weighted-cubic-residue": [
+      "5.102"
+    ],
+    "eq:weighted-cubic-generating-integral": [
+      "5.103"
+    ],
+    "eq:weighted-cubic-split-integral": [
+      "5.104"
+    ],
+    "eq:weighted-cubic-discriminant-integral": [
+      "5.105"
+    ],
+    "eq:weighted-cubic-half-sum": [
+      "5.106"
+    ],
+    "eq:weighted-cubic-identity": [
+      "5.107"
+    ],
+    "eq:weighted-discriminant-coefficient": [
+      "5.108"
+    ],
+    "eq:dixon-parity-identity": [
+      "5.109"
+    ],
+    "eq:weighted-mixed-binomial-identity": [
+      "5.110"
+    ],
+    "eq:multivariate-liskovets-system": [
+      "5.111"
+    ],
+    "eq:multivariate-liskovets-solution": [
+      "5.112"
+    ],
+    "eq:multivariate-liskovets-identity": [
+      "5.113"
+    ],
+    "eq:multivariate-liskovets-normalization": [
+      "5.114"
+    ],
+    "eq:multivariate-liskovets-generating": [
+      "5.115"
+    ],
+    "eq:multivariate-liskovets-residue": [
+      "5.116"
+    ],
+    "eq:multivariate-liskovets-transformed": [
+      "5.117"
+    ],
+    "eq:multivariate-liskovets-inversion": [
+      "5.118"
+    ],
+    "eq:lee-identity": [
+      "5.119"
+    ],
+    "eq:lee-inner-residue": [
+      "5.120"
+    ],
+    "eq:lee-outer-residue": [
+      "5.121"
+    ],
+    "eq:lee-binomial-sum": [
+      "5.122"
+    ],
+    "eq:lee-power-sum": [
+      "5.123"
+    ],
+    "eq:lee-values": [
+      "5.124",
+      "5.125"
+    ],
+    "eq:dixon-factorial-identity": [
+      "5.126"
+    ],
+    "eq:shifted-binomial-product-identity": [
+      "5.127"
+    ],
+    "eq:carlitz-product-specialization": [
+      "5.128"
+    ],
+    "eq:binomial-product-trinomial": [
+      "5.129"
+    ],
+    "eq:binomial-product-shifted": [
+      "5.130"
+    ],
+    "eq:binomial-product-symmetric": [
+      "5.131"
+    ],
+    "eq:positive-binomial-convolution": [
+      "5.132"
+    ],
+    "eq:bizley-convolution": [
+      "5.133"
+    ],
+    "eq:bizley-shifted-convolution": [
+      "5.134"
+    ],
+    "eq:stirling-log-cancellation": [
+      "5.135"
+    ],
+    "eq:harmonic-alternating-convolution": [
+      "5.136"
+    ],
+    "eq:binomial-double-orthogonality": [
+      "5.137"
+    ],
+    "eq:reciprocal-binomial-harmonic-sum": [
+      "5.138"
+    ],
+    "eq:factorial-double-sum": [
+      "5.139"
+    ],
+    "eq:multivariate-power-difference": [
+      "5.140"
+    ],
+    "eq:binomial-power-expansion": [
+      "5.141"
+    ],
+    "eq:binomial-power-reflection": [
+      "5.142"
+    ],
+    "eq:binomial-power-normalization": [
+      "5.143"
+    ],
+    "eq:composition-factorial-sum": [
+      "5.144"
+    ],
+    "eq:cyclic-binomial-diagonal-sum": [
+      "5.145"
+    ],
+    "eq:cyclic-binomial-recurrence": [
+      "5.146"
+    ],
+    "eq:double-binomial-recurrence": [
+      "5.147"
+    ],
+    "eq:carlitz-composition-identity": [
+      "5.148"
+    ],
+    "eq:carlitz-parameter-composition": [
+      "5.149"
+    ],
+    "eq:beineke-pippert-identity": [
+      "5.150"
+    ],
+    "eq:forest-component-identity": [
+      "5.151"
+    ],
+    "eq:multivariate-binomial-transformation": [
+      "5.152"
+    ],
+    "eq:stirling-partition-sum": [
+      "5.153"
+    ],
+    "eq:rational-antiderivative": [
+      "5.154"
+    ],
+    "eq:rational-integral-example": [
+      "5.155"
+    ],
+    "eq:rational-integral-family": [
+      "5.156"
+    ],
+    "eq:reproducing-kernel-series": [
+      "6.1"
+    ],
+    "eq:reproducing-integral": [
+      "6.2"
+    ],
+    "eq:holomorphic-series": [
+      "6.3"
+    ],
+    "eq:exhaustion-kernel-series": [
+      "6.4"
+    ],
+    "eq:exponential-domain-integral": [
+      "6.5"
+    ],
+    "eq:szego-general-domain": [
+      "6.6"
+    ],
+    "eq:szego-general-series": [
+      "6.7"
+    ],
+    "eq:szego-series-parameters": [
+      "6.7′"
+    ],
+    "eq:szego-general-integral": [
+      "6.8"
+    ],
+    "eq:szego-integral-parameters": [
+      "6.8′"
+    ],
+    "eq:szego-root-sum": [
+      "6.9"
+    ],
+    "eq:szego-coefficient-series": [
+      "6.10"
+    ],
+    "eq:szego-moment-integral": [
+      "6.11"
+    ],
+    "eq:szego-unit-cube-integral": [
+      "6.12"
+    ],
+    "eq:szego-radial-recursion": [
+      "6.13"
+    ],
+    "eq:beta-block-integral": [
+      "6.14"
+    ],
+    "eq:beta-block-value": [
+      "6.15"
+    ],
+    "eq:beta-integral": [
+      "6.16"
+    ],
+    "eq:nested-beta-integral": [
+      "6.17"
+    ],
+    "eq:nested-beta-value": [
+      "6.18"
+    ],
+    "eq:nested-beta-expansion": [
+      "6.19"
+    ],
+    "eq:logarithmic-block-integral": [
+      "6.20"
+    ],
+    "eq:logarithmic-block-value": [
+      "6.21"
+    ],
+    "eq:logarithmic-series-reduction": [
+      "6.22"
+    ],
+    "eq:logarithmic-beta-transform": [
+      "6.23"
+    ],
+    "eq:logarithmic-series-value": [
+      "6.24"
+    ],
+    "eq:szego-multinomial-series": [
+      "6.25"
+    ],
+    "eq:szego-first-substitution": [
+      "6.26"
+    ],
+    "eq:szego-first-residue": [
+      "6.27"
+    ],
+    "eq:szego-reduced-integral": [
+      "6.28"
+    ],
+    "eq:szego-second-substitution": [
+      "6.29"
+    ],
+    "eq:exponential-ball-domain": [
+      "6.30"
+    ],
+    "eq:exponential-ball-kernel": [
+      "6.31"
+    ],
+    "eq:mixed-exponential-domain": [
+      "6.32"
+    ],
+    "eq:mixed-exponential-kernel": [
+      "6.33"
+    ],
+    "eq:powered-exponential-domain": [
+      "6.34"
+    ],
+    "eq:powered-exponential-kernel": [
+      "6.35"
+    ],
+    "eq:square-root-exponential-domain": [
+      "6.36"
+    ],
+    "eq:square-root-exponential-kernel": [
+      "6.37"
+    ],
+    "eq:nested-exponential-domain": [
+      "6.38"
+    ],
+    "eq:nested-exponential-kernel": [
+      "6.39"
+    ],
+    "eq:bounded-nested-domain": [
+      "6.40"
+    ],
+    "eq:bounded-bergman-kernel": [
+      "6.41"
+    ],
+    "eq:bounded-kernel-relation": [
+      "6.42"
+    ],
+    "eq:witt-rank": [
+      "6.43"
+    ],
+    "eq:solvable-rank-recurrence": [
+      "6.44"
+    ],
+    "eq:hall-word-order": [
+      "a"
+    ],
+    "eq:derived-word-count": [
+      "6.45"
+    ],
+    "eq:hall-extension-count": [
+      "6.46"
+    ],
+    "eq:hall-reduction-count": [
+      "6.47"
+    ],
+    "eq:derived-word-residue": [
+      "6.48"
+    ],
+    "eq:metabelian-rank": [
+      "6.49"
+    ],
+    "eq:solvable-rank-residue": [
+      "6.50"
+    ],
+    "eq:solvable-rank-partitions": [
+      "6.51"
+    ],
+    "eq:hall-monomial-count": [
+      "6.52"
+    ],
+    "eq:hall-product-coefficient": [
+      "6.53"
+    ],
+    "eq:polynilpotent-initial-count": [
+      "6.54"
+    ],
+    "eq:polynilpotent-previous-levels": [
+      "6.55"
+    ],
+    "eq:polynilpotent-rank-recurrence": [
+      "6.56"
+    ],
+    "eq:polynilpotent-exclusion-residue": [
+      "6.57"
+    ],
+    "eq:polynilpotent-word-residue": [
+      "6.58"
+    ],
+    "eq:power-commutator-collection": [
+      "6.59"
+    ],
+    "eq:power-commutator-induction": [
+      "6.60"
+    ],
+    "eq:p-central-commutator-layer": [
+      "6.61"
+    ],
+    "eq:power-product-congruence": [
+      "6.62"
+    ],
+    "eq:p-central-first-inclusion": [
+      "6.63"
+    ],
+    "eq:product-commutator-expansion": [
+      "6.64"
+    ],
+    "eq:p-central-layer-inclusion": [
+      "6.65"
+    ],
+    "eq:p-central-power-truncation": [
+      "6.66"
+    ],
+    "eq:p-central-power-separation": [
+      "6.67"
+    ],
+    "eq:hall-power-expansion": [
+      "6.68"
+    ],
+    "eq:hall-coordinate-congruence": [
+      "6.69"
+    ],
+    "eq:p-metabelian-rank": [
+      "6.70"
+    ],
+    "eq:p-solvable-rank-residue": [
+      "6.71"
+    ],
+    "eq:p-solvable-rank-partitions": [
+      "6.72"
+    ],
+    "eq:p-solvable-rank-increments": [
+      "6.73"
+    ],
+    "eq:generalized-generating-series": [
+      "7.1"
+    ],
+    "eq:summation-matrix-kernel": [
+      "7.2"
+    ],
+    "eq:multivariate-summation-kernel": [
+      "7.3"
+    ],
+    "eq:multivariate-transform-kernel": [
+      "7.4"
+    ],
+    "eq:differential-form": [
+      "1"
+    ],
+    "eq:exterior-antisymmetry": [
+      "2"
+    ],
+    "eq:form-coordinate-change": [
+      "3"
+    ],
+    "eq:exterior-derivative": [
+      "4"
+    ],
+    "eq:manifold-map": [
+      "5"
+    ],
+    "eq:singular-chain": [
+      "6"
+    ],
+    "eq:boundary-squared": [
+      "7"
+    ],
+    "eq:simplex-integral": [
+      "8"
+    ],
+    "eq:chain-integral": [
+      "9"
+    ],
+    "eq:pullback-integral": [
+      "10"
+    ],
+    "eq:stokes-formula": [
+      "11"
+    ],
+    "eq:integration-by-parts": [
+      "12"
+    ],
+    "eq:repeated-integration-by-parts": [
+      "13"
+    ],
+    "eq:homology-periods": [
+      "14"
+    ],
+    "eq:intersection-sign": [
+      "15"
+    ],
+    "eq:leray-coboundary": [
+      "16"
+    ],
+    "eq:leray-residue": [
+      "17"
+    ],
+    "eq:multiple-leray-residue": [
+      "18"
+    ],
+    "eq:plane-meromorphic-integral": [
+      "19"
+    ],
+    "eq:puiseux-factorization": [
+      "20"
+    ],
+    "eq:multivariate-meromorphic-integral": [
+      "21"
+    ],
+    "eq:denominator-decomposition": [
+      "22"
+    ],
+    "eq:reduced-meromorphic-integral": [
+      "23"
+    ],
+    "eq:holomorphic-map": [
+      "24"
+    ],
+    "eq:shifted-holomorphic-map": [
+      "25"
+    ],
+    "eq:zero-count-boundary": [
+      "26"
+    ],
+    "eq:rouche-bound": [
+      "27"
+    ],
+    "eq:perturbed-map": [
+      "28"
+    ],
+    "eq:zero-count-localization": [
+      "29"
+    ],
+    "eq:simple-zero-degree": [
+      "30"
+    ],
+    "eq:rouche-integral-invariance": [
+      "31"
+    ],
+    "eq:shifted-local-degree": [
+      "32"
+    ],
+    "eq:zero-multiplicity": [
+      "33"
+    ],
+    "eq:weighted-zero-count": [
+      "34"
+    ],
+    "eq:weighted-zero-localization": [
+      "35"
+    ],
+    "eq:logarithmic-residue-count": [
+      "36"
+    ],
+    "eq:logarithmic-weighted-count": [
+      "37"
+    ],
+    "eq:torus-perturbed-map": [
+      "38"
+    ],
+    "eq:torus-rouche-bound": [
+      "39"
+    ],
+    "eq:torus-weighted-perturbation": [
+      "40"
+    ],
+    "eq:logarithmic-localization": [
+      "41"
+    ],
+    "eq:simple-logarithmic-residue": [
+      "42"
+    ],
+    "eq:multiple-logarithmic-residue": [
+      "43"
+    ],
+    "eq:implicit-functions": [
+      "44"
+    ],
+    "eq:implicit-system": [
+      "45"
+    ],
+    "eq:implicit-normalization": [
+      "46"
+    ],
+    "eq:implicit-cauchy-integral": [
+      "47"
+    ],
+    "eq:implicit-series": [
+      "48"
+    ],
+    "eq:implicit-taylor-series": [
+      "49"
+    ],
+    "eq:implicit-coefficients": [
+      "50"
+    ],
+    "eq:implicit-series-univariate": [
+      "48′"
+    ],
+    "eq:implicit-coefficients-univariate": [
+      "50′"
+    ],
+    "eq:implicit-residue-expansion": [
+      "51"
+    ],
+    "eq:implicit-coefficient-integral": [
+      "52"
+    ],
+    "eq:inverse-map": [
+      "53"
+    ],
+    "eq:inverse-map-normalization": [
+      "54"
+    ],
+    "eq:local-inverse-map": [
+      "55"
+    ],
+    "eq:inverse-map-series": [
+      "56"
+    ],
+    "eq:inverse-map-taylor": [
+      "57"
+    ],
+    "eq:inverse-map-coefficients": [
+      "58"
+    ],
+    "eq:multiplicative-map": [
+      "59"
+    ],
+    "eq:lagrange-good-series": [
+      "60"
+    ],
+    "eq:implicit-formal-system": [
+      "61"
+    ],
+    "eq:implicit-composite-series": [
+      "62"
+    ],
+    "eq:implicit-combinatorial-coefficients": [
+      "63"
+    ],
+    "eq:implicit-index-constraints": [
+      "64"
+    ],
+    "eq:implicit-component-constraints": [
+      "65"
+    ],
+    "eq:implicit-double-integral": [
+      "66"
+    ],
+    "eq:logarithmic-jacobian": [
+      "67"
+    ],
+    "eq:logarithmic-expansion": [
+      "68"
+    ],
+    "eq:inverse-formal-map": [
+      "69"
+    ],
+    "eq:inverse-composite-series": [
+      "70"
+    ],
+    "eq:inverse-combinatorial-coefficients": [
+      "71"
+    ],
+    "eq:branched-system": [
+      "72"
+    ],
+    "eq:branched-solution": [
+      "73"
+    ],
+    "eq:branched-normalization": [
+      "74"
+    ],
+    "eq:branched-coefficient-integral": [
+      "75"
+    ],
+    "eq:branched-taylor-series": [
+      "76"
+    ],
+    "eq:branched-series-coefficients": [
+      "77"
+    ]
+  },
+  "equation_aliases": {
+    "eq:lee-power-values": "5.125"
+  }
+}
