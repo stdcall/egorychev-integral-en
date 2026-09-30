@@ -1,7 +1,11 @@
 # Building and changing the edition
 
 Use Typst 0.15.1, Typstyle 0.15.1, Tinymist 0.15.8, Python 3.12 and uv.
-Fonts and their licenses are included in `assets/fonts`.
+Fonts and their licenses are included in `assets/fonts`. Typst does not see
+system fonts, and the build fails if a PDF contains a font other than those
+in `assets/fonts` (including the fonts bundled with Typst) or a character
+that none of them has. A new font is added there as a file together with its
+license.
 
 ```sh
 uv sync --locked

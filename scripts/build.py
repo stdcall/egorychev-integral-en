@@ -1,5 +1,11 @@
-"""Build this setting, validate its navigation, and preserve PDF tags."""
+"""Build this setting, validate its navigation, and preserve PDF tags.
+
+Typst does not see system fonts and any Typst warning fails the build. Every
+PDF is checked to contain no font other than those in assets/fonts (not even
+one bundled with Typst) and no missing glyph.
+"""
 import argparse
+from collections import defaultdict
 import hashlib
 import io
 import json
@@ -7,6 +13,7 @@ import os
 from pathlib import Path
 import re
 import shutil
+import struct
 import subprocess
 import tempfile
 
@@ -18,10 +25,74 @@ from pypdf.generic import ArrayObject, NameObject, NullObject
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = {"entry": "content/main.typ"}
+FONTS = ROOT / 'assets/fonts'
+SUBSET_TAG = re.compile(r'^[A-Z]{6}\+')
 
 
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def book_font_names(directory=FONTS):
+    """PostScript names (OpenType name ID 6) of the font files of the book."""
+    names = set()
+    for path in sorted(directory.rglob('*')):
+        if path.suffix.lower() not in {'.otf', '.ttf'}:
+            continue
+        data = path.read_bytes()
+        for index in range(struct.unpack_from('>H', data, 4)[0]):
+            tag, _, table, _ = struct.unpack_from('>4sIII', data, 12 + 16 * index)
+            if tag != b'name':
+                continue
+            _, count, strings = struct.unpack_from('>3H', data, table)
+            for record in range(count):
+                platform, _, _, name_id, length, offset = struct.unpack_from(
+                    '>6H', data, table + 6 + 12 * record)
+                if name_id == 6:
+                    start = table + strings + offset
+                    names.add(data[start:start + length].decode(
+                        'utf-16-be' if platform in (0, 3) else 'latin-1'))
+    if not names:
+        raise ValueError(f'No fonts found in {directory}')
+    return names
+
+
+def check_fonts(pdf, label):
+    """Fail if the PDF has a font outside assets/fonts or a missing glyph."""
+    allowed = book_font_names()
+    found = defaultdict(dict)  # problem -> {PDF page: text set in the font}
+    with fitz.open(pdf) as document:
+        for page in document:
+            number, foreign = page.number + 1, {}
+            for _, _, kind, name, _, encoding, *_ in page.get_fonts(full=True):
+                name = SUBSET_TAG.sub('', name)
+                if kind == 'Type0':  # a composite font's name ends in its encoding
+                    name = name.removesuffix(f'-{encoding}')
+                if name not in allowed:
+                    foreign[name] = found[f'font {name} is not a book font']
+                    foreign[name][number] = ''
+            text = ''
+            for span in page.get_texttrace():
+                chars = ''.join(chr(c) if c > 0 else '?' for c, *_ in span['chars'])
+                chars = chars.replace('\xad', '-')
+                # MuPDF shortens the font names of spans.
+                for name, pages in foreign.items():
+                    if name.startswith(span['font']):
+                        pages[number] += chars
+                if any(name.startswith(span['font']) for name in allowed):
+                    for index, (_, glyph, *_) in enumerate(span['chars']):
+                        if glyph == 0:
+                            context = (text + chars[:index])[-40:]
+                            found[f'no book font has the glyph after "{context}"'][
+                                number] = ''
+                text += chars
+    if found:
+        raise ValueError(f'{label}:' + ''.join(
+            f'\n  {problem}: ' + ', '.join(
+                f'PDF page {page}' + (f' "{sample[:30]}"' if sample else '')
+                for page, sample in list(pages.items())[:8]
+            ) + (f' and {len(pages) - 8} more pages' if len(pages) > 8 else '')
+            for problem, pages in found.items()))
 
 
 def run(args):
@@ -93,7 +164,7 @@ def object_bytes(obj):
     return buffer.getvalue()
 
 
-def finalize(raw, staged):
+def finalize(raw, staged, label):
     before = PdfReader(raw)
     writer = PdfWriter(raw, incremental=True)
     records = []
@@ -121,6 +192,7 @@ def finalize(raw, staged):
     if '/Outlines' in catalog:
         normalize(catalog['/Outlines'].get('/First'))
     writer.write(staged)
+    check_fonts(staged, label)
     after = PdfReader(staged)
 
     def validate(items, depth=0):
@@ -392,7 +464,7 @@ def build(notes='on'):
             checked = temporary / (kind + '-checked.pdf')
             run(['typst', 'compile', '--root', str(ROOT), '--input',
                  f'editorial-notes={notes}', entry, str(raw)])
-            reports[kind] = finalize(raw, checked)
+            reports[kind] = finalize(raw, checked, name)
             staged = output / (name + '.tmp')
             shutil.copyfile(checked, staged)
             staged.replace(output / name)
